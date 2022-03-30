@@ -1,43 +1,46 @@
 # Project IDeepS
 
-This repository is related to the project **Classificação de imagens via redes neurais profundas e grandes bases de dados para aplicações aeroespaciais** (Image classification via Deep neural networks and large databases for aeroSpace applications - IDeepS). The IDeepS project is supported by the *Laboratório Nacional de Computação Científica* (LNCC/MCTI, Brazil) via resources of the [SDumont](http://sdumont.lncc.br) supercomputer.
+This repository is related to the project ***Classificação de imagens via redes neurais profundas e grandes bases de dados para aplicações aeroespaciais*** (Image classification via Deep neural networks and large databases for aeroSpace applications - IDeepS). The IDeepS project is supported by the *Laboratório Nacional de Computação Científica* (LNCC/MCTI, Brazil) via resources of the [SDumont](http://sdumont.lncc.br) supercomputer.
 
-The main goal of the repository is to provide directives on how we can perform the setup and run deep learning (DL) applications in the SDumont supercomputer. We consider the DL framework [PyTorch](https://pytorch.org/) (mainly) but also the library [TensorFlow](https://www.tensorflow.org/).
+The main goal of the repository is to provide directives on how we can perform the setup and run deep learning (DL) applications in the SDumont supercomputer. We consider the DL framework [PyTorch](https://pytorch.org/) to run the DL code.
 
 
 ## Overview of the SDumont Supercomputer
 
-The following CNNs are available:
+The SDumont supercomputer has an installed processing capacity of 5.1 Petaflop/s presenting a hybrid configuration of computational nodes, in terms of the available parallel processing architecture. Currently, SDumont has a total of 36,472 CPU cores distributed across 1,134 computing nodes, most of which are made up exclusively of CPUs with a multi-core architecture. There is, however, a significant amount of additional nodes that, in addition to the same multi-core CPUs, contain device types with the so-called many-core architecture: GPU and MIC.
+
+There are several [node configurations](https://sdumont.lncc.br/machine.php?pg=machine#) but here we show only the nodes the IDeepS project uses:
+
+- **B715**. 198 B715 computing nodes (thin node) where each node has 2 x Intel Xeon E5-2695v2 Ivy Bridge CPU, 2 x NVIDIA K40 GPUs, and 64 GB of RAM;
+- **AI**. 1 artificial intelligence (AI) node with 2 x Intel Xeon Skylake Gold 6148, 8 x NVIDIA Tesla V100 GPUs with NVLink, and 384 GB RAM;
+- **BSeq**. 94 Bull Sequana X1120 computing nodes where each has 2 x Intel Xeon Skylake 6252 CPU, 4 x NVIDIA Volta V100 GPUs, and 384 GB of RAM.
 
 
-- PyTorch\_MNIST: Google Colab's notebook for the handwritten digit classification problem based on the classical Modified National Institute of Standards and Technology (MNIST) database. It uses three neural networks to address this problem: **SNN500** by [Aviv Shamsian](https://github.com/AvivSham/Pytorch-MNIST-colab), **CNN3L** by [Nutan](https://medium.com/@nutanbhogendrasharma/pytorch-convolutional-neural-network-with-mnist-dataset-4e8a4265e118), and **LeNet-5** by [Bolla Karthikeya](https://github.com/bollakarthikeya/LeNet-5-PyTorch/blob/master/lenet5\_gpu.py);
-- PyTorch\_MNIST\_Profiler: Google Colab's notebook related to the handwritten digit classification problem based on the classical MNIST database. Hovewer, its goal is to address performance bottlenecks of the network/model via the TensorBoard Plugin with PyTorch Profiler. Hence, it will not cover the classification task completely. It uses the same three neural networks of the PyTorch\_MNIST notebook; 
-- PyTorch\_CIFAR-10: Google Colab's notebook for the image classification problem based on the classical CIFAR-10 database. It is a modification of the [*Training a Classifier*](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html) PyTorch tutorial. It uses two neural networks to address this problem: **CNN3L** by [Nutan](https://medium.com/@nutanbhogendrasharma/pytorch-convolutional-neural-network-with-mnist-dataset-4e8a4265e118) and **LeNet-5** presented in the *Training a Classifier* tutorial;
-- PyTorch\_CIFAR-10\_Profiler: Google Colab's notebook related to the image classification problem based on the classical CIFAR-10 database. Hovewer, its goal is to address performance bottlenecks of the network/model via the TensorBoard Plugin with PyTorch Profiler. Hence, it will not cover the classification task completely. It uses same two neural networks of the PyTorch\_CIFAR-10 notebook;
-- PyTorch\_VGG\_ResNet\_VGGout: It shows how easy is to create "new" deep neural networks (DNNs) by changing a few lines of code of previously proposed models. New networks: VGG12BN, ResNet-14. The output is due to the execution of VGG12BN;
-- PyTorch\_VGG\_ResNet\_ResNetout: Same previous notebook but with the output of ResNet-14;
-- PyTorch\_DenseNet: It shows how easy is to create "new" deep neural networks (DNNs) by changing a few lines of code of previously proposed models. New network: DenseNet-83;
-- PyTorch\_TransferLayer: This notebook shows how to use transfer learning (TL) within a supervised context. The TL technique is fine-tuning the deep convolutional neural network (CNN). We considered six pretrained models: ResNet-18, ResNet-34, DenseNet-121, DenseNet-161, GoogLeNet, and Inception-v3;
-- PyTorch\_U-Net: This notebook is about semantic segmentation via U-Net. **Important**. This notebook was developed by the [Albumentations Team](https://albumentations.ai/) and a few modifications have been done by Valdivino Alexandre de Santiago J&uacute;nior. If you want to use Albumentations in your study, please cite their [article](https://www.mdpi.com/2078-2489/11/2/125);
-- PyTorch\_Mask R-CNN: This notebook is about instance segmentation via Mask R-CNN. **Important**. This notebook was developed by [Erdene-Ochir Tuguldur](https://github.com/tugstugi/dl-colab-notebooks/blob/master/notebooks/TorchvisionMaskRCNN.ipynb) and a few modifications have been done by Valdivino Alexandre de Santiago Júnior.
+## Jobs Queues
+
+SDumont's operating system is [RedHat Linux 7.6](https://www.redhat.com/pt-br). Job submission must be done via the cluster management and job scheduling system [Slurm](https://slurm.schedmd.com/documentation.html). Below we show the type of jobs queues the IDeepS project can use. The maximum wallclock refers to the maximum time a job can run in the respective node without being interrupted by a timeout.
 
 
-## Generative Adversarial Networks (GANs)
-
-The following GANs are available:
-
-- PyTorch\_DCGAN: This notebook addresses the [deep convolutional generative adversarial network](https://arxiv.org/abs/1511.06434) (DCGAN);
-- PyTorch\_PROGAN: This notebook is about the [progressive growing of GANs](https://arxiv.org/abs/1710.10196) (PROGAN);
-- PyTorch\_CGAN: This notebook is about the [conditional generative adversarial network](https://arxiv.org/pdf/1411.1784.pdf) (CGAN).
+| Queue Name  	| Node 			| Maximum Wallclock (h)	|
+| ------------- | ------------- |----------------------	|
+| nvidia  		| B715  		|48 (2 days) 					|
+| nvidia_small  		| B715  		|1					|
+| nvidia_dev  		| B715  		|00:20 					|
+| nvidia_scal  		| B715  		|18					|
+| nvidia_long  		| B715  		|744 (31 days) 					|
+| het_scal 		| B715  		|18					|
+| gdl 		| AI 		|48 (2 days)					|
+| sequana_gpu_shared  		| BSeq  		|96 (4 days) 					|
 
 
 
-## Datasets
 
-The following datasets are required to download into Google Drive so that some notebooks can work properly:
+## Connecting and File Transference
 
-- [imagenettetvt320](https://www.kaggle.com/valdivinosantiago/imagenettetvt320);
-- [CelebFaces Attributes](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html).
+In order to use the SDumont supercomputer, we should connect to the LNCC's VPN using the login and password provided to the user. After connecting, we must login using the SSH network protocol. File transference from and to SDumont can be done via the SCP network protocol.
+
+Here, we present a simple shell script that can help to login and transfer files to SDumont.
+
 
 
 ## Author
@@ -53,5 +56,3 @@ This project is licensed under the GNU GENERAL PUBLIC LICENSE, Version 3 (GPLv3)
 Please cite this repository if you use it as:
 
 V. A. Santiago J&uacute;nior. Deep Leaning Made Easy, 2021. Acessed on: *date of access*. Available: https://github.com/vsantjr/DeepLearningMadeEasy. 
-
-
