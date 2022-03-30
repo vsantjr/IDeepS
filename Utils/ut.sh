@@ -28,16 +28,16 @@ do
             	echo "File TO SD!"
             	f=${OPTARG}
             	scp $f name.user@login.sdumont.lncc.br:/scratch/proj/name.user/$dirinout
-        		exit;;
+        	exit;;
         f) 
         	echo "File FROM SD!"
         	f=${OPTARG}
-            scp name.user@login.sdumont.lncc.br:/scratch/proj/name.user/$dirinout/$f .
+            	scp name.user@login.sdumont.lncc.br:/scratch/proj/name.user/$dirinout/$f .
         	exit;;
         d) 
         	echo "Dir FROM SD!"
         	subdir=${OPTARG}
-            scp -r name.user@login.sdumont.lncc.br:/scratch/proj/name.user/$dirinout/$subdir .
+            	scp -r name.user@login.sdumont.lncc.br:/scratch/proj/name.user/$dirinout/$subdir .
         	exit;;	
     esac
 done
