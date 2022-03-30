@@ -1,6 +1,6 @@
 # Project IDeepS
 
-This repository is related to the project *Classificação de imagens via redes neurais profundas e grandes bases de dados para aplicações aeroespaciais* (Image classification via Deep neural networks and large databases for aeroSpace applications).
+This repository is related to the project **Classificação de imagens via redes neurais profundas e grandes bases de dados para aplicações aeroespaciais** (Image classification via Deep neural networks and large databases for aeroSpace applications - IDeepS).
 
 
 ## Convolutional Neural Networks (CNNs)
