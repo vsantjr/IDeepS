@@ -5,7 +5,7 @@ This repository is related to the project **Classificação de imagens via redes
 The main goal of the repository is to provide directives on how we can perform the setup and run deep learning (DL) applications in the SDumont supercomputer. We consider the DL framework [PyTorch](https://pytorch.org/) (mainly) but also the library [TensorFlow](https://www.tensorflow.org/).
 
 
-## Convolutional Neural Networks (CNNs)
+## Overview of the SDumont Supercomputer
 
 The following CNNs are available:
 
