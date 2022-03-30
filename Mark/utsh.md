@@ -2,7 +2,7 @@
 
 This repository is related to the project ***Classificação de imagens via redes neurais profundas e grandes bases de dados para aplicações aeroespaciais*** (Image classification via Deep neural networks and large databases for aeroSpace applications - IDeepS). The IDeepS project is supported by the *Laboratório Nacional de Computação Científica* (LNCC/MCTI, Brazil) via resources of the [SDumont](http://sdumont.lncc.br) supercomputer.
 
-The main goal of the repository is to provide directives on how you can perform the setup and run deep learning (DL) applications in the SDumont supercomputer. We consider the DL framework [PyTorch](https://pytorch.org/) to run the DL code.
+The main goal of the repository is to provide directives on how we can perform the setup and run deep learning (DL) applications in the SDumont supercomputer. We consider the DL framework [PyTorch](https://pytorch.org/) to run the DL code.
 
 
 ## Overview of the SDumont Supercomputer
@@ -37,22 +37,10 @@ SDumont's operating system is [RedHat Linux 7.6](https://www.redhat.com/pt-br). 
 
 ## Connecting and File Transference
 
-In order to use the SDumont supercomputer, you should connect to the LNCC's VPN using the login and password provided to you. After connecting, you must login using the SSH network protocol. File transference from and to SDumont can be done via the SCP network protocol.
+In order to use the SDumont supercomputer, we should connect to the LNCC's VPN using the login and password provided to the user. After connecting, we must login using the SSH network protocol. File transference from and to SDumont can be done via the SCP network protocol.
 
-[Here](https://pytorch.org/), we present a simple shell script that can help to login and transf files from/to SDumont.
+Here, we present a simple shell script that can help to login and transfer files to SDumont.
 
-**IMPORTANT**: It is likely you will experience broken pipe connection errors when using SSH. Hence, change your ```ssh_config``` (client) file so that it resembles something like this:
-
-```
-Host *
-        ServerAliveInterval 30
-        IPQoS=throughput
-```
-
-In MacOS, this file is usually inside directory ```/etc/ssh```. The ```ServerAliveInterval``` option specifies the number of seconds between keepalives. In other words, this is a timeout interval, in seconds, after which if no data has been received from the server, SSH will send a message through the encrypted channel to request a response from the server.
-
-
-## Installing Software
 
 
 ## Author
@@ -67,4 +55,4 @@ This project is licensed under the GNU GENERAL PUBLIC LICENSE, Version 3 (GPLv3)
 
 Please cite this repository if you use it as:
 
-V. A. Santiago J&uacute;nior. Project IDeepS, 2022. Acessed on: *date of access*. Available: https://github.com/vsantjr/IDeepS. 
+V. A. Santiago J&uacute;nior. Deep Leaning Made Easy, 2021. Acessed on: *date of access*. Available: https://github.com/vsantjr/DeepLearningMadeEasy. 
