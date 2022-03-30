@@ -2,7 +2,7 @@
 
 This repository is related to the project **Classificação de imagens via redes neurais profundas e grandes bases de dados para aplicações aeroespaciais** (Image classification via Deep neural networks and large databases for aeroSpace applications - IDeepS). The IDeepS project is supported by the *Laboratório Nacional de Computação Científica* (LNCC/MCTI, Brazil) via resources of the [SDumont](http://sdumont.lncc.br) supercomputer.
 
-The main goal of the repository is to provide directives on how we can perform the setup and run deep learning applications in the SDumont supercomputer. We consider the DL frameworks/libraries [PyTorch](https://pytorch.org/) (mainly) but also [TensorFlow](https://www.tensorflow.org/).
+The main goal of the repository is to provide directives on how we can perform the setup and run deep learning (DL) applications in the SDumont supercomputer. We consider the DL framework [PyTorch](https://pytorch.org/) (mainly) but also the library [TensorFlow](https://www.tensorflow.org/).
 
 
 ## Convolutional Neural Networks (CNNs)
