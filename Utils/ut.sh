@@ -25,10 +25,10 @@ do
         	ssh name.user@login.sdumont.lncc.br
         	exit;;
         t) 
-            echo "File TO SD!"
-            f=${OPTARG}
-            scp $f name.user@login.sdumont.lncc.br:/scratch/proj/name.user/$dirinout
-        	exit;;
+            	echo "File TO SD!"
+            	f=${OPTARG}
+            	scp $f name.user@login.sdumont.lncc.br:/scratch/proj/name.user/$dirinout
+        		exit;;
         f) 
         	echo "File FROM SD!"
         	f=${OPTARG}
