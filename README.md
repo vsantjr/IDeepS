@@ -96,11 +96,17 @@ bash pytorchsrc.sh
 
 Note that such installation can take a considerable time to complete.
 
+**IMPORTANT**: If you need to install some libraries, packages, etc. it is highly recommended to do it via conda within the ennvironment you need such libraries, packages. Conda is interesting because of its clear structure, transparent file management (no installation of files outside its directory), lots of available packages, anb so on.
+ 
+
 ## Submitting Jobs
 
 We can divide the job submission in two categories: single and multi-node.
 
 ### Single Node
+
+
+### Multi-Node
 
 
 
