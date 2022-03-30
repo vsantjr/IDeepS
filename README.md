@@ -12,7 +12,7 @@ The SDumont supercomputer has an installed processing capacity of 5.1 Petaflop/s
 There are several [node configurations](https://sdumont.lncc.br/machine.php?pg=machine#) but here we show only the nodes the IDeepS project uses:
 
 - **B715**. 198 B715 computing nodes (thin node) where each node has 2 x Intel Xeon E5-2695v2 Ivy Bridge CPU, 2 x NVIDIA K40 GPUs, and 64 GB of RAM;
-- **AI**. 1 artificial intelligence (AI) node with 2 x Intel Xeon Skylake Gold 6148, 8 x NVIDIA Tesla V100 GPUs with NVLink, and 384 GB RAM;
+- **AI**. 1 artificial intelligence (AI) node with 2 x Intel Xeon Skylake Gold 6148, 8 x NVIDIA Tesla V100 GPUs with NVLink, and 384 GB of RAM;
 - **BSeq**. 94 Bull Sequana X1120 computing nodes where each has 2 x Intel Xeon Skylake 6252 CPU, 4 x NVIDIA Volta V100 GPUs, and 384 GB of RAM.
 
 
@@ -39,7 +39,7 @@ SDumont's operating system is [RedHat Linux 7.6](https://www.redhat.com/pt-br). 
 
 In order to use the SDumont supercomputer, you should connect to the LNCC's VPN using the login and password provided to you. After connecting, you must login using the SSH network protocol. File transference from and to SDumont can be done via the SCP network protocol.
 
-[Here](https://pytorch.org/), we present a simple shell script that can help to login and transf files from/to SDumont.
+[Here](./Mark/utsh.md), we present a simple shell script that can help to login and transf files from/to SDumont.
 
 **IMPORTANT**: It is likely you will experience broken pipe connection errors when using SSH. Hence, change your ```ssh_config``` (client) file so that it resembles something like this:
 
