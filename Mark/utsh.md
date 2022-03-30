@@ -21,7 +21,7 @@ In order to transfer a file to SDumont, run in the terminal:
 ```
 ./ut.sh -t filename
 ```
-Thus to transfer a file ```test.py```:
+Thus to transfer the file ```test.py```:
 
 ```./ut.sh -t test.py```
 
@@ -31,7 +31,7 @@ In order to receive a file from SDumont, run in the terminal:
 ./ut.sh -f filename
 ```
 
-Thus to receive a file ```test.py```:
+Thus to receive the file ```test.py```:
 
 ```./ut.sh -f test.py```
 
@@ -41,7 +41,7 @@ In order to receive an entire dir from SDumont, run in the terminal:
 ./ut.sh -d subdir
 ```
 
-Thus to receive a dir ```img``` which is inside the ```work``` directory in your SDumont account:
+Thus to receive the dir ```img``` which is a subdirectory of the ```work``` directory in your SDumont account:
 
 ```
 ./ut.sh -d img
