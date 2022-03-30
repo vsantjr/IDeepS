@@ -7,7 +7,7 @@ The main goal of the repository is to provide directives on how we can perform t
 
 ## Login and Transference
 
-Click [here](./Utils/ut.sh) to download the shell script to login and transfer files from/to SDumont.
+Click [here](../Utils/ut.sh) to download the shell script to login and transfer files from/to SDumont.
 
 
 After connecting to the VPN, run in the terminal to login into your account:
