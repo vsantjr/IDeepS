@@ -88,13 +88,19 @@ Firstly, activate your newly created environment:
 conda activate myenv
 ```
 
-[Here](./Utils/pytorchsrc.sh), we present a shell script that installs PyTorch from source. Hence, in the scratch dir (```/scratch/proj/name.user```), run:
+[Here](./Utils/pytorchsrc.sh), we present a shell script that installs PyTorch from source. Hence, in the scratch directory (```/scratch/proj/name.user```), run:
 
 ```
 bash pytorchsrc.sh
 ```
 
 Note that such installation can take a considerable time to complete.
+
+## Submitting Jobs
+
+We can divide the job submission in two categories: single and multi-node.
+
+### Single Node
 
 
 
