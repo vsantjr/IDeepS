@@ -5,9 +5,49 @@ This repository is related to the project ***Classificação de imagens via rede
 The main goal of the repository is to provide directives on how we can perform the setup and run deep learning (DL) applications in the SDumont supercomputer. We consider the DL framework [PyTorch](https://pytorch.org/) to run the DL code.
 
 
-## Overview of the SDumont Supercomputer
+## Login and Transference
 
-The SDumont supercomputer has an installed processing capacity of 5.1 Petaflop/s presenting a hybrid configuration of computational nodes, in terms of the available parallel processing architecture. Currently, SDumont has a total of 36,472 CPU cores distributed across 1,134 computing nodes, most of which are made up exclusively of CPUs with a multi-core architecture. There is, however, a significant amount of additional nodes that, in addition to the same multi-core CPUs, contain device types with the so-called many-core architecture: GPU and MIC.
+Click [here](./Utils/ut.sh) to download the shell script to login and transfer files from/to SDumont.
+
+
+After connecting to the VPN, run in the terminal to login into your account:
+
+```
+./ut.sh -c 0
+```
+
+In order to transfer a file to SDumont, run in the terminal:
+
+```
+./ut.sh -t filename
+```
+Thus to transfer a file ```test.py```:
+
+```./ut.sh -t test.py```
+
+In order to receive a file from SDumont, run in the terminal:
+
+```
+./ut.sh -f filename
+```
+
+Thus to receive a file ```test.py```:
+
+```./ut.sh -f test.py```
+
+In order to receive an entire dir from SDumont, run in the terminal:
+
+```
+./ut.sh -d subdir
+```
+
+Thus to receive a dir ```img``` which is inside the ```work``` directory in your SDumont account:
+
+```
+./ut.sh -d img
+```
+
+
 
 There are several [node configurations](https://sdumont.lncc.br/machine.php?pg=machine#) but here we show only the nodes the IDeepS project uses:
 

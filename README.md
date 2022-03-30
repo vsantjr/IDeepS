@@ -39,7 +39,7 @@ SDumont's operating system is [RedHat Linux 7.6](https://www.redhat.com/pt-br). 
 
 In order to use the SDumont supercomputer, you should connect to the LNCC's VPN using the login and password provided to you. After connecting, you must login using the SSH network protocol. File transference from and to SDumont can be done via the SCP network protocol.
 
-[Here](./Mark/utsh.md), we present a simple shell script that can help to login and transf files from/to SDumont.
+[Here](./Mark/utsh.md), we present information and a simple shell script that can help to login and transf files from/to SDumont.
 
 **IMPORTANT**: It is likely you will experience broken pipe connection errors when using SSH. Hence, change your ```ssh_config``` (client) file so that it resembles something like this:
 
