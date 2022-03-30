@@ -1,6 +1,6 @@
-# Deep Learning Made Easy
+# Project IDeepS
 
-This repository provides examples for those who want to start working in deep learning (DL), a subfield of machine learning (ML). 
+This repository is related to the project *Classificação de imagens via redes neurais profundas e grandes bases de dados para aplicações aeroespaciais* (Image classification via Deep neural networks and large databases for aeroSpace applications).
 
 
 ## Convolutional Neural Networks (CNNs)
