@@ -54,6 +54,54 @@ In MacOS, this file is usually inside directory ```/etc/ssh```. The ```ServerAli
 
 ## Installing Software
 
+When in your SDumont account, change to your ```scratch``` directory. This directory is used to store all the files that will be used during the execution of a job (submission scripts, executables, input data, output data, etc).
+
+```cd $SCRATCH```
+
+Running a pwd command, you will see something like this (let us assume that the name of the user is **name.user** and the name of the project is **proj**):
+
+```/scratch/proj/name.user```
+
+#### Miniconda
+
+The first software that it is interesting to install is [Miniconda](https://docs.conda.io/en/latest/miniconda.html) for Linux. Hence, download the appropriate shell file (```Miniconda3....sh```) and run:
+
+```
+bash Miniconda3....sh
+```
+
+After installing Miniconda, create a new conda environment with a selected version of Python. For instance, if the selected Python version is 3.9.6, then we create the ```myenv``` environment in this way:
+
+```
+conda create -n myenv python=3.9.6
+```
+
+**IMPORTANT**: It is recommended to create as many different conda environments as necessary, specially if you want to work with several DL frameworks/libraries. For instance, if you need to work not only with PyTorch but also with [TensorFlow](https://www.tensorflow.org/), thus create a new conda environment to submit jobs with TensorFlow. This avoid potential conflicts. Moreover, some available DL models were developed and only work with specific versions of the DL libraries/frameworks. Thus, creating new conda environments for such versions is suggested.
+
+#### PyTorch
+
+It is required to build PyTorch from source since its newer versions do not support the NVIDIA K40 GPUs. If you install the PyTorch in the ordinary way (via conda, pip), you will be allowed to submit jobs in only two out of the queues presented above: gdl and sequana_gpu_shared. 
+
+Firstly, activate your newly created environment:
+
+```
+conda activate myenv
+```
+
+[Here](./Utils/pytorchsrc.sh), we present a shell script that installs PyTorch from source. Hence, in the scratch dir (```/scratch/proj/name.user```), run:
+
+```
+bash pytorchsrc.sh
+```
+
+Note that such installation can take a considerable time to complete.
+
+
+
+
+
+
+
 
 ## Author
 
