@@ -7,47 +7,13 @@ The main goal of the repository is to provide directives on how you can perform 
 Institutions participating in the project: *Instituto Nacional de Pesquisas Espaciais* [(INPE)](https://www.gov.br/inpe/pt-br), *Instituto de Estudos Avançados* [(IEAv)](https://ieav.dcta.mil.br/).
 
 
-## Login and Transference
+## Single Node/Single GPU
 
-Click [here](../Utils/ut.sh) to download the shell script to login and transfer files from/to SDumont. This script was tested on a Mac computer. It is interesting to add this file in the $PATH variable of your computer.
+The SDumont supercomputer has an installed processing capacity of 5.1 Petaflop/s presenting a hybrid configuration of computational 
+
+There are several [node configurations](https://sdumont.lncc.br/machine.php?pg=machine#) but here we show only the nodes the IDeepS project uses:
 
 
-After connecting to the VPN, run in the terminal to login into your account:
-
-```
-ut.sh -c 0
-```
-
-In order to transfer a file to SDumont, run in the terminal:
-
-```
-ut.sh -t filename
-```
-Thus to transfer the file ```test.py```:
-
-```ut.sh -t test.py```
-
-In order to receive a file from SDumont, run in the terminal:
-
-```
-ut.sh -f filename
-```
-
-Thus to receive the file ```test.py```:
-
-```ut.sh -f test.py```
-
-In order to receive an entire dir from SDumont, run in the terminal:
-
-```
-ut.sh -d subdir
-```
-
-Thus to receive the dir ```img``` which is a subdirectory of the ```work``` directory in your SDumont account:
-
-```
-ut.sh -d img
-```
 
 
 
@@ -64,4 +30,4 @@ This project is licensed under the GNU GENERAL PUBLIC LICENSE, Version 3 (GPLv3)
 
 Please cite this repository if you use it as:
 
-V. A. Santiago J&uacute;nior. IDeepS, 2022. Acessed on: *date of access*. Available: https://github.com/vsantjr/IDeepS. 
+V. A. Santiago J&uacute;nior. Project IDeepS, 2022. Acessed on: *date of access*. Available: https://github.com/vsantjr/IDeepS. 
