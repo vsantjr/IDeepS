@@ -103,6 +103,13 @@ Note that such installation can take a considerable time to complete.
 
 ## Submitting Jobs
 
+In order to submit a job, basically you need to follow the steps below:
+
+- As previously mentioned, all the necessary files (executable, libraries, input data) must be in the ```scratch``` directory; 
+- Create a submission script (```.srm```), configuring the parameters necessary for the execution of the job;
+- Submit the script (```.srm```) with the command ```sbatch```. Thus, if your script is ```test.srm```, you run in the terminal: ```sbatch test.srm```;
+- If you want to see the outputs of your application during its execution, you can run in the terminal: ```cp slurm-ID.out a.txt```, where ID is the job ID (number) provided by Slurm. The outputs of your application are redirected to this ```.out``` file. Hence, you may just call ```vim a.txt``` to see the current snapshot of your execution. 
+
 We can divide the job submission in three categories (click on the respective links): [single node/single GPU](./Mark/sinnode_singpu.md), [single node/multiple GPUs](./Mark/sinnode_mulgpu.md), and [multiple nodes/multiple GPUs](./Mark/mulnode_mulgpu.md).
 
 ## Jupyter-lab
