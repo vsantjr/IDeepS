@@ -1,8 +1,10 @@
 # Project IDeepS
 
-This repository is related to the project ***Classificação de imagens via redes neurais profundas e grandes bases de dados para aplicações aeroespaciais*** (Image classification via Deep neural networks and large databases for aeroSpace applications - IDeepS). The IDeepS project is supported by the *Laboratório Nacional de Computação Científica* (LNCC/MCTI, Brazil) via resources of the [SDumont](http://sdumont.lncc.br) supercomputer.
+This repository is related to the project ***Classificação de imagens via redes neurais profundas e grandes bases de dados para aplicações aeroespaciais*** (Image classification via Deep neural networks and large databases for aeroSpace applications - IDeepS). The IDeepS project is supported by the *Laboratório Nacional de Computação Científica* ([LNCC](https://www.gov.br/lncc/pt-br)/MCTI, Brazil) via resources of the [SDumont](http://sdumont.lncc.br) supercomputer.
 
 The main goal of the repository is to provide directives on how you can perform the setup and run deep learning (DL) applications in the SDumont supercomputer. We consider the DL framework [PyTorch](https://pytorch.org/) to run the DL code.
+
+Institutions participating in the project: *Instituto Nacional de Pesquisas Espaciais* [(INPE)](https://www.gov.br/inpe/pt-br), *Instituto de Estudos Avançados* [(IEAv)](https://ieav.dcta.mil.br/).
 
 
 ## Overview of the SDumont Supercomputer
@@ -96,20 +98,14 @@ bash pytorchsrc.sh
 
 Note that such installation can take a considerable time to complete.
 
-**IMPORTANT**: If you need to install some libraries, packages, etc. it is highly recommended to do it via conda within the ennvironment you need such libraries, packages. Conda is interesting because of its clear structure, transparent file management (no installation of files outside its directory), lots of available packages, and so on.
+**IMPORTANT**: If you need to install some libraries, packages, etc. it is highly recommended to do it via conda within the ennvironment you need such libraries, packages. Conda is interesting because of its clear structure, transparent file management (no installation of files outside its directory), lots of available packages, and so on. However, bear in mind that, depending on the software you want to install, you might eventually ask permission from LNCC.
  
 
 ## Submitting Jobs
 
-We can divide the job submission in two categories: single and multi-node.
+We can divide the job submission in three categories (click on the respective links): [single node/single GPU](./Mark/sinnode_singpu.md), [single node/multiple GPUs](./Mark/sinnode_mulgpu.md), and [multiple nodes/multiple GPUs](./Mark/mulnode_mulgpu.md).
 
-### Single Node
-
-
-### Multi-Node
-
-
-
+## Jupyter-lab
 
 
 
