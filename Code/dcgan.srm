@@ -1,12 +1,3 @@
-# Project IDeepS
-
-<img src="https://github.com/vsantjr/CAP/blob/master/Images/logo1ideeps.png" width=58%>
-
-## Single Node/Single GPU
-
-This configuration is the most basic in which you use only 1 node and only 1 GPU of this node. The submission script presented below is a general one, which can be used for all configurations. This script (click [here](../Code/dcgan.srm) to download it) was developed based on scripts and suggestions provided by [Pedro Santos](https://bit.ly/38e2Z4B) and [Eduardo Miranda](https://bit.ly/35ApPmg).
-
-```
 #!/bin/bash
 #SBATCH --job-name sn-sg                # SLURM_JOB_NAME
 #SBATCH --partition nvidia_small        # SLURM_JOB_PARTITION
@@ -54,26 +45,3 @@ srun python dcgan.py
 
 echo '-- end --------------------------------'
 echo -n '<2. quit>                    ' && date
-
-```
-
-In the submission script, Slurm parameters must be preceded by #SBATCH. Some explanations about this script follows. The name of this job 
-
-
-
-
-
-
-## Author
-
-[**Valdivino Alexandre de Santiago J&uacute;nior**](https://www.linkedin.com/in/valdivino-alexandre-de-santiago-j%C3%BAnior-103109206/?locale=en_US)
-
-## Licence
-
-This project is licensed under the GNU GENERAL PUBLIC LICENSE, Version 3 (GPLv3) - see the [LICENSE.md](../LICENSE) file for details.
-
-## Cite
-
-Please cite this repository if you use it as:
-
-V. A. Santiago J&uacute;nior. Project IDeepS, 2022. Acessed on: *date of access*. Available: https://github.com/vsantjr/IDeepS. 
