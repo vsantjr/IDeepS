@@ -123,6 +123,14 @@ We can divide the job submission in three categories (click on the respective li
 
 ## Jupyter-lab
 
+Jupyter-lab can also be executed in SDumont to support interactive computing. Click [here](https://sites.usp.br/cadase/recursos-computacionais/tutoriais-sdumont/) to see how you can start Jupyter-lab in SDumont and access your notebooks stored in the supercomputer. 
+
+However, for running long-duration jobs as it is usually the case when training DL models, the most suitable approach to take advantages of a supercomputer is shown in the Submitting Jobs subsections above, by creating a separate submission script (```.srm```) and calling Python within such script.
+
+However, you can start Jupyter-lab locally in your machine and launch a terminal session as shown below.
+
+Eventually you can create your. nbs scripts ...
+
 
 
 
