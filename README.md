@@ -131,8 +131,11 @@ However, you can start JupyterLab locally in your machine and launch a terminal 
 
 <img src="https://github.com/vsantjr/CAP/blob/master/Images/jl1.png" width=90%>
 
+You can then use the previous [script](./Utils/ut.sh) to login and transfer files from/to SDumont.
 
-Eventually you can create your. nbs scripts ...
+<img src="https://github.com/vsantjr/CAP/blob/master/Images/jl2.png" width=90%>
+
+
 
 
 
