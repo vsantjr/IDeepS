@@ -72,7 +72,13 @@ The first software that it is interesting to install is [Miniconda](https://docs
 bash Miniconda3....sh
 ```
 
-After installing Miniconda, create a new conda environment with a selected version of Python. For instance, if the selected Python version is 3.9.6, then we create the ```myenv``` environment in this way:
+After installing Miniconda, create a new conda environment with a selected version of Python. But firstly, deactivate the default conda environment (```base```), assuming that this environment is currently activated:
+
+```
+conda deactivate
+```
+
+Thus, if the selected Python version is 3.9.6, then create the ```myenv``` environment in this way:
 
 ```
 conda create -n myenv python=3.9.6
@@ -82,7 +88,7 @@ conda create -n myenv python=3.9.6
 
 #### PyTorch
 
-It is required to build PyTorch from source since its newer versions do not support the NVIDIA K40 GPUs. If you install the PyTorch in the ordinary way (via conda, pip), you will be allowed to submit jobs in only two out of the queues presented above: gdl and sequana_gpu_shared. 
+It is required to build PyTorch from source since its newer versions do not support the NVIDIA K40 GPUs. If you install PyTorch in the ordinary way (via conda, pip), you will be allowed to submit jobs in only two out of the queues presented earlier: gdl and sequana_gpu_shared. 
 
 Firstly, activate your newly created environment:
 
