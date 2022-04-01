@@ -5,7 +5,7 @@
 
 This repository is related to the project ***Classificação de imagens via redes neurais profundas e grandes bases de dados para aplicações aeroespaciais*** (Image classification via Deep neural networks and large databases for aeroSpace applications - IDeepS). The IDeepS project is supported by the *Laboratório Nacional de Computação Científica* ([LNCC](https://www.gov.br/lncc/pt-br)/MCTI, Brazil) via resources of the [SDumont](http://sdumont.lncc.br) supercomputer.
 
-The main goal of the repository is to provide directives on how you can perform the setup and run deep learning (DL) applications in the SDumont supercomputer. We consider the DL framework [PyTorch](https://pytorch.org/) to run the DL code.
+The main goal of the repository is to provide directives/suggestions on how you can perform the setup and run deep learning (DL) applications in the SDumont supercomputer. We consider the DL framework [PyTorch](https://pytorch.org/) to run the DL code.
 
 Institutions participating in the project: *Instituto Nacional de Pesquisas Espaciais* [(INPE)](https://www.gov.br/inpe/pt-br), *Instituto de Estudos Avançados* [(IEAv)](https://ieav.dcta.mil.br/).
 
@@ -75,7 +75,7 @@ The first software that it is interesting to install is [Miniconda](https://docs
 bash Miniconda3....sh
 ```
 
-After installing Miniconda, create a new conda environment with a selected version of Python. But firstly, deactivate the default conda environment (```base```), assuming that this environment is currently activated:
+You may also prefer using one of the Anaconda versions already installed in SDumont rather than installing Miniconda. After installing Miniconda, create a new conda environment with a selected version of Python. But firstly, deactivate the default conda environment (```base```), assuming that this environment is currently activated:
 
 ```
 conda deactivate

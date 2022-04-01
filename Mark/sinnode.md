@@ -4,7 +4,7 @@
 
 ## Single Node/Single GPU
 
-This configuration is the most basic one in which you use only 1 node and only 1 GPU of this node. The submission script presented below is a general one, which can be used for all configurations. This script (download the [dcgan.srm](../Code/dcgan.srm)) was developed based on scripts and suggestions provided by [Pedro Santos](https://bit.ly/38e2Z4B) and [Eduardo Miranda](https://bit.ly/35ApPmg).
+This configuration is the most basic one in which you use only 1 node and only 1 GPU of this node. The submission script presented below is a general one, which can be used for all configurations. This script (download the [dcgan.srm](../Code/dcgan.srm) script) was developed based on scripts and suggestions provided by [Pedro Santos](https://bit.ly/38e2Z4B) and [Eduardo Miranda](https://bit.ly/35ApPmg).
 
 ```
 #!/bin/bash
