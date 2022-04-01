@@ -135,6 +135,9 @@ You can then use the previous [script](./Utils/ut.sh) to login and transfer file
 
 <img src="https://github.com/vsantjr/CAP/blob/master/Images/jl2.png" width=90%>
 
+You can even work with notebooks locally, export the executable script (```.py```) to your machine, transfer the program to SDumont.
+
+<img src="https://github.com/vsantjr/CAP/blob/master/Images/jl3.png" width=90%>
 
 
 
