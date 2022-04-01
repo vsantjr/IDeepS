@@ -57,7 +57,7 @@ echo -n '<2. quit>                    ' && date
 
 ```
 
-This submission script is very similar to the one for the [single node/single GPU configuration](../Code/sinnode.srm) wit very few changes. The name of the job is ```sn-sg```, and the selected partition/queue is ```nvidia_dev```. One node (```--nodes```) was selected and since the job will run on a B715 node, we have 2 available NVIDIA K40 GPUs. We will now use both GPUs (```--ntasks-per-node = 2```). The ```--time``` parameter was set to 20 minutes since this is the maximum value for this queue. 
+This submission script is very similar to the one for the [single node/single GPU configuration](../Code/dcgan.srm) wit very few changes. The name of the job is ```sn-sg```, and the selected partition/queue is ```nvidia_dev```. One node (```--nodes```) was selected and since the job will run on a B715 node, we have 2 available NVIDIA K40 GPUs. We will now use both GPUs (```--ntasks-per-node = 2```). The ```--time``` parameter was set to 20 minutes since this is the maximum value for this queue. 
 
 Click [here](../Code/dcgan.py) to access the ```dcgan.py``` program. Such a code was developed based on an official [PyTorch tutorial](https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html) created by [Nathan Inkawhich](https://github.com/inkawhich). It is a program addressing the deep convolutional generative adversarial network [(DCGAN)](https://arxiv.org/abs/1511.06434). Note that since the number of images in the target set is very small for DCGAN, the outputs/results are not very promissing. See details in the code. 
 
