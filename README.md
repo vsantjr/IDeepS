@@ -129,7 +129,7 @@ However, for running long-duration jobs as it is usually the case when training 
 
 However, you can start JupyterLab locally in your machine and launch a terminal session as shown in the figure below.
 
-<img src="https://github.com/vsantjr/CAP/blob/master/Images/jl1.png" width=58%>
+<img src="https://github.com/vsantjr/CAP/blob/master/Images/jl1.png" width=70%>
 
 
 Eventually you can create your. nbs scripts ...
