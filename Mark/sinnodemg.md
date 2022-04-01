@@ -4,7 +4,7 @@
 
 ## Single Node/Multiple GPUs
 
-In this configuration, we use only 1 node but all GPUs of this node. The submission script is shown below.
+In this configuration, we use only 1 node but all GPUs of this node. The submission script is shown below and can be accessed [here](../Code/singlemulti.srm).
 
 ```
 #!/bin/bash
