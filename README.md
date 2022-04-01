@@ -1,6 +1,7 @@
 # Project IDeepS
 
-![ ](https://github.com/vsantjr/CAP/blob/master/Images/logo1ideeps.png | width=100)
+
+<img src="https://github.com/vsantjr/CAP/blob/master/Images/logo1ideeps.png" height=50%>
 
 This repository is related to the project ***Classificação de imagens via redes neurais profundas e grandes bases de dados para aplicações aeroespaciais*** (Image classification via Deep neural networks and large databases for aeroSpace applications - IDeepS). The IDeepS project is supported by the *Laboratório Nacional de Computação Científica* ([LNCC](https://www.gov.br/lncc/pt-br)/MCTI, Brazil) via resources of the [SDumont](http://sdumont.lncc.br) supercomputer.
 
