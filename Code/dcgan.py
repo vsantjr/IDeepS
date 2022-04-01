@@ -98,14 +98,19 @@ lr = 0.0002
 # Beta1 hyperparam for Adam optimizers.
 beta1 = 0.5
 
-# Number of GPUs available:
-#    - use 0 for CPU mode; 
-#    - use 1 for single node/single GPU
-#    - use 2 (NVIDIA K40) or 4 (NVIDIA V100) for single node/multiple GPUs.
+# Configuration:
+#    - use 0 for CPU mode (no GPU); 
+#    - use 1 for single node/single GPU.
 ngpu = 1
+if (ngpu == 0):
+    print('Configuration: CPU (no GPU)!')
+elif (ngpu == 1):    
+    print('Configuration: Single Node/Single GPU!')
+else:
+    print('Invalid Configuration!')
 
 
-
+# Load data
 dataset = dset.ImageFolder(root=dataroot,
                           transform=transforms.Compose([
                           transforms.Resize(image_size),
@@ -182,14 +187,6 @@ class Generator(nn.Module):
 # Create the generator.
 netG = Generator(ngpu).to(device)
 
-# Handle multiple GPUs if desired.
-print('Configuration -> Generator ...')
-if (device.type == 'cuda') and (ngpu > 1):
-    netG = nn.DataParallel(netG, list(range(ngpu)))
-    print('Single Node/Multiple GPUs!')
-else:
-    print('Single Node/Single GPU!')
-
 # Apply the weights_init function. 
 netG.apply(weights_init)
 
@@ -232,15 +229,6 @@ class Discriminator(nn.Module):
 
 # Create the Discriminator.
 netD = Discriminator(ngpu).to(device)
-
-# Handle multiple GPUs if desired.
-print('Configuration -> Discriminator ... ')
-if (device.type == 'cuda') and (ngpu > 1):
-    netD = nn.DataParallel(netD, list(range(ngpu)))
-    print('Single Node/Multiple GPUs!')
-else:
-    print('Single Node/Single GPU!')
-    
     
 # Apply the weights_init function.
 netD.apply(weights_init)
