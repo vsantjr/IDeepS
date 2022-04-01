@@ -121,13 +121,16 @@ In order to submit a job, basically you need to follow the steps below:
 
 We can divide the job submission in three categories (click on the respective links to see examples of submission scripts and code): [single node/single GPU](https://github.com/vsantjr/IDeepS/blob/master/Mark/sinnode.md#single-nodesingle-gpu), [single node/multiple GPUs](https://github.com/vsantjr/IDeepS/blob/master/Mark/sinnodemg.md#single-nodemultiple-gpus), and [multiple nodes/multiple GPUs](./Mark/mulnode_mulgpu.md).
 
-## Jupyter-lab
+## JupyterLab
 
-Jupyter-lab can also be executed in SDumont to support interactive computing. Click [here](https://sites.usp.br/cadase/recursos-computacionais/tutoriais-sdumont/) to see how you can start Jupyter-lab in SDumont and access your notebooks stored in the supercomputer. 
+JupyteLab can also be executed in SDumont to support interactive computing. Click [here](https://sites.usp.br/cadase/recursos-computacionais/tutoriais-sdumont/) to see how you can start JupyterLab in SDumont and access your notebooks stored in the supercomputer. 
 
 However, for running long-duration jobs as it is usually the case when training DL models, the most suitable approach to take advantages of a supercomputer is shown in the Submitting Jobs subsections above, by creating a separate submission script (```.srm```) and calling Python within such script.
 
-However, you can start Jupyter-lab locally in your machine and launch a terminal session as shown below.
+However, you can start JupyterLab locally in your machine and launch a terminal session as shown in the figure below.
+
+<img src="https://github.com/vsantjr/CAP/blob/master/Images/jl1.png" width=58%>
+
 
 Eventually you can create your. nbs scripts ...
 
