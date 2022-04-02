@@ -23,7 +23,8 @@ There are several [node configurations](https://sdumont.lncc.br/machine.php?pg=m
 
 ## Jobs Queues
 
-SDumont's operating system is [RedHat Linux 7.6](https://www.redhat.com/pt-br). Job submission must be done via the cluster management and job scheduling system [Slurm](https://slurm.schedmd.com/documentation.html). Below we show the type of jobs queues the IDeepS project can use. The maximum wallclock refers to the maximum time a job can run in the respective node without being interrupted by a timeout.
+SDumont's operating system is [RedHat Linux 7.6](https://www.redhat.com/pt-br). Job submission must be done via the cluster management and job scheduling system [Slurm](https://slurm.schedmd.com/documentation.html). Below we show the type of jobs queues the IDeepS project can use. In the Node column, we show the type of node related to the queue but note that other nodes may be used in some queues. For instance, the het_scal queue has 64 nodes with CPU architecture and 64 nodes with GPU architecture. The jobs submitted to
+this queue can request a set of heterogeneous nodes for execution. But, in the case of the IDeepS project, the most desired resources are the nodes with GPU due to the characteristics of DL applications. The Maximum Wallclock refers to the maximum time a job can run in the respective node without being interrupted by a timeout.
 
 
 | Queue Name  	| Node 			| GPUs/Node   | Maximum Wallclock (h)	|
