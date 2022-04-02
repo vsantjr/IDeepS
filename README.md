@@ -26,16 +26,16 @@ There are several [node configurations](https://sdumont.lncc.br/machine.php?pg=m
 SDumont's operating system is [RedHat Linux 7.6](https://www.redhat.com/pt-br). Job submission must be done via the cluster management and job scheduling system [Slurm](https://slurm.schedmd.com/documentation.html). Below we show the type of jobs queues the IDeepS project can use. The maximum wallclock refers to the maximum time a job can run in the respective node without being interrupted by a timeout.
 
 
-| Queue Name  	| Node 			| Maximum Wallclock (h)	|
-| ------------- | ------------- |----------------------	|
-| nvidia  		| B715  		|48 (2 days) 					|
-| nvidia_small  		| B715  		|1					|
-| nvidia_dev  		| B715  		|00:20 					|
-| nvidia_scal  		| B715  		|18					|
-| nvidia_long  		| B715  		|744 (31 days) 					|
-| het_scal 		| B715  		|18					|
-| gdl 		| AI 		|48 (2 days)					|
-| sequana_gpu_shared  		| BSeq  		|96 (4 days) 					|
+| Queue Name  	| Node 			| GPUs/Node   | Maximum Wallclock (h)	|
+| ------------- | ------------- |-------------|-------------------------|
+| nvidia  		| B715  		|2            |48 (2 days) 				|
+| nvidia_small  		| B715  		|2    |1					|
+| nvidia_dev  		| B715  		|2        |00:20 					|
+| nvidia_scal  		| B715  		|2        |18					|
+| nvidia_long  		| B715  		|2        |744 (31 days) 		|
+| het_scal 		| B715  		|2            |18					|
+| gdl 		| AI 		|8                    |48 (2 days)				|
+| sequana_gpu_shared  		| BSeq  	|4    |96 (4 days) 				|
 
 
 
