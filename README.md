@@ -126,7 +126,7 @@ In a DL project like IDeepS, we can divide the job submission in three configura
 
 JupyteLab can also be executed in SDumont to support interactive computing. Click [here](https://sites.usp.br/cadase/recursos-computacionais/tutoriais-sdumont/) to see how you can start JupyterLab in SDumont and access your notebooks stored in the supercomputer. 
 
-However, for more non-trivial DL applications, the most suitable approach to take advantages of a supercomputer is shown in the Submitting Jobs subsections above, by creating a separate submission script (```.srm```) and calling Python within such a script.
+However, for more non-trivial DL applications, the most suitable approach to take advantages of a supercomputer seems to be as shown in the Submitting Jobs subsections above, by creating a separate submission script (```.srm```) and calling Python within such a script.
 
 But you can start JupyterLab locally in your machine and launch a terminal session as shown in the figure below.
 
