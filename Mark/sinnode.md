@@ -68,7 +68,7 @@ In order to submit the ```dcgan.srm``` script do the following:
 - Deactivate the ```myenv``` conda environment if it is already activated. The environment is activated within the script;
 - run ```sbatch dcgan.srm```.
 
-Click [here](../Code/dcgan.py) to access the ```dcgan.py``` program. Such a code was developed based on an official [PyTorch tutorial](https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html) created by [Nathan Inkawhich](https://github.com/inkawhich). It is a program addressing the deep convolutional generative adversarial network [(DCGAN)](https://arxiv.org/abs/1511.06434). Note that since the number of images in the target set is very small for DCGAN, the outputs/results are not very promissing. See details in the code. 
+Click [here](../Code/dcgan.py) to access the ```dcgan.py``` program. Such a code was developed by Valdivino Santiago Júnior based on an official [PyTorch tutorial](https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html) created by [Nathan Inkawhich](https://github.com/inkawhich). It is a program addressing the deep convolutional generative adversarial network [(DCGAN)](https://arxiv.org/abs/1511.06434). Note that since the number of images in the target set is very small for DCGAN (only 1,294 images of the [imagenettetvt320](https://www.kaggle.com/datasets/valdivinosantiago/imagenettetvt320) dataset), the outputs/results are not very promissing. More details in the code. Furthermore, if you want to see the notebook version of this code with detailed explanations, take a look at [here](https://github.com/vsantjr/DeepLearningMadeEasy/blob/temp_23-09/PyTorch_DCGAN.ipynb). 
 
 The output after running the program is show below.
 
@@ -187,7 +187,7 @@ Starting Training Loop...
 
 ```
 
-If you want to see the notebook version of this code with detailed explanations, take a look [here](https://github.com/vsantjr/DeepLearningMadeEasy/blob/temp_23-09/PyTorch_DCGAN.ipynb).
+
 
 
 
