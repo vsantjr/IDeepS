@@ -120,13 +120,13 @@ In order to submit a job, basically you need to follow the steps below:
 - Submit the script (```.srm```) with the command ```sbatch```. Thus, if your script is ```test.srm```, you run in the terminal: ```sbatch test.srm```;
 - If you want to see the outputs of your application during its execution, you can run in the terminal: ```cp slurm-ID.out a.txt```, where ID is the job ID (number) provided by Slurm. The outputs of your application are redirected to this ```.out``` file. Hence, you may just call ```vim a.txt``` to see the current snapshot of your execution. 
 
-We can divide the job submission in three categories (click on the respective links to see examples of submission scripts and code): [single node/single GPU](https://github.com/vsantjr/IDeepS/blob/master/Mark/sinnode.md#single-nodesingle-gpu), [single node/multiple GPUs](https://github.com/vsantjr/IDeepS/blob/master/Mark/sinnodemg.md#single-nodemultiple-gpus), and [multiple nodes/multiple GPUs](./Mark/mulnode_mulgpu.md).
+In a DL project like IDeepS, we can divide the job submission in three configurations (click on the respective links to see examples of submission scripts and code): [single node/single GPU](https://github.com/vsantjr/IDeepS/blob/master/Mark/sinnode.md#single-nodesingle-gpu), [single node/multiple GPUs](https://github.com/vsantjr/IDeepS/blob/master/Mark/sinnodemg.md#single-nodemultiple-gpus), and [multiple nodes/multiple GPUs](./Mark/mulnode_mulgpu.md).
 
 ## JupyterLab
 
 JupyteLab can also be executed in SDumont to support interactive computing. Click [here](https://sites.usp.br/cadase/recursos-computacionais/tutoriais-sdumont/) to see how you can start JupyterLab in SDumont and access your notebooks stored in the supercomputer. 
 
-However, for running long-duration jobs as it is usually the case when training DL models, the most suitable approach to take advantages of a supercomputer is shown in the Submitting Jobs subsections above, by creating a separate submission script (```.srm```) and calling Python within such script.
+However, for more non-trivial DL applications, the most suitable approach to take advantages of a supercomputer is shown in the Submitting Jobs subsections above, by creating a separate submission script (```.srm```) and calling Python within such a script.
 
 However, you can start JupyterLab locally in your machine and launch a terminal session as shown in the figure below.
 
