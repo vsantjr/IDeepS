@@ -128,7 +128,7 @@ JupyteLab can also be executed in SDumont to support interactive computing. Clic
 
 However, for more non-trivial DL applications, the most suitable approach to take advantages of a supercomputer is shown in the Submitting Jobs subsections above, by creating a separate submission script (```.srm```) and calling Python within such a script.
 
-However, you can start JupyterLab locally in your machine and launch a terminal session as shown in the figure below.
+But you can start JupyterLab locally in your machine and launch a terminal session as shown in the figure below.
 
 <img src="https://github.com/vsantjr/CAP/blob/master/Images/jl1.png" width=90%>
 
