@@ -7,14 +7,14 @@ This repository is related to the project ***Classificação de imagens via rede
 
 The main goal of the repository is to provide directives/suggestions on how you can perform the setup and run deep learning (DL) applications in the SDumont supercomputer. We mainly consider the DL framework [PyTorch](https://pytorch.org/) to run the DL code but there are some remarks to use the library [TensorFlow](https://www.tensorflow.org/). The suggestions below are based on a Standard-type project which is the category of project IDeepS belongs.
 
-Researchers, professors and post-graduate students from the following organisations are involved in the project: *Instituto Nacional de Pesquisas Espaciais* [(INPE)](https://www.gov.br/inpe/pt-br), *Instituto de Estudos Avançados* [(IEAv)](https://ieav.dcta.mil.br/), *Universidade Federal de São Paulo - Campus São José dos Campos* [(UNIFESP)](https://www.unifesp.br/campus/sjc/), *Instituto Tecnológico de Aeronáutica* [(ITA)](http://www.ita.br/), and *Universidade Federal de São Carlos - Campus Sorocaba* [UFSCar](https://www.sorocaba.ufscar.br/).
+Researchers, professors and post-graduate students from the following organisations are involved in the project: *Instituto Nacional de Pesquisas Espaciais* [(INPE)](https://www.gov.br/inpe/pt-br), *Instituto de Estudos Avançados* [(IEAv)](https://ieav.dcta.mil.br/), *Universidade Federal de São Paulo - Campus São José dos Campos* [(UNIFESP)](https://www.unifesp.br/campus/sjc/), *Instituto Tecnológico de Aeronáutica* [(ITA)](http://www.ita.br/), and *Universidade Federal de São Carlos - Campus Sorocaba* [(UFSCar)](https://www.sorocaba.ufscar.br/).
 
 
 ## Overview of the SDumont Supercomputer
 
-The SDumont supercomputer has an installed processing capacity of 5.1 Petaflop/s presenting a hybrid configuration of computational nodes, in terms of the available parallel processing architecture. Currently, SDumont has a total of 36,472 CPU cores distributed across 1,134 computing nodes, most of which are made up exclusively of CPUs with a multi-core architecture. There is, however, a significant amount of additional nodes that, in addition to the same multi-core CPUs, contain device types with the so-called many-core architecture: GPU and MIC.
+The SDumont supercomputer has an installed processing capacity of 5.1 Petaflop/s presenting a hybrid configuration of computational nodes, in terms of the available parallel processing architecture. Currently, SDumont has a total of 36,472 CPU cores distributed across 1,134 computing nodes, most of which are made up exclusively of CPUs with a multi-core architecture. There is, however, a significant amount of additional nodes that, in addition to the same multi-core CPUs, contain device types with the so-called many-core architecture: GPU and MIC. More detailed information about the SDumont supercomputer can be seen [here](https://sdumont.lncc.br/support_manual.php?pg=support#5).
 
-There are several [node configurations](https://sdumont.lncc.br/machine.php?pg=machine#) but here we show only the nodes the IDeepS project uses:
+There are several node configurations but here we show only the nodes the IDeepS project uses:
 
 - **B715**. 198 B715 computing nodes (thin node) where each node has 2 x Intel Xeon E5-2695v2 Ivy Bridge CPU, 2 x NVIDIA K40 GPUs, and 64 GB of RAM;
 - **AI**. 1 artificial intelligence (AI) node with 2 x Intel Xeon Skylake Gold 6148, 8 x NVIDIA Tesla V100 GPUs with NVLink, and 384 GB of RAM;
@@ -88,7 +88,6 @@ Thus, if the selected Python version is 3.9.6, then create the ```myenv``` envir
 conda create -n myenv python=3.9.6
 ```
 
-**IMPORTANT**: It is recommended to create as many different conda environments as necessary, specially if you want to work with several DL frameworks/libraries. For instance, if you need to work not only with PyTorch but also with TensorFlow, thus create a new conda environment to submit jobs with TensorFlow. This avoid potential conflicts. Moreover, some available DL models were developed and only work with specific versions of the DL libraries/frameworks. Thus, creating new conda environments for such versions is suggested.
 
 #### PyTorch
 
@@ -118,7 +117,6 @@ Hence, you can create a new environment (```myenvtf```) and install [TensorFlow]
 
 ```
 conda create -n myenvtf tensorflow-gpu
-
 ```
 
 After that, just activate the environment to use TensorFlow:
@@ -136,6 +134,24 @@ In order to submit a job, basically you need to follow the steps below:
 - Create a submission script (```.srm```), configuring the parameters necessary for the execution of the job;
 - Submit the script (```.srm```) with the command ```sbatch```. Thus, if your script is ```test.srm```, you run in the terminal: ```sbatch test.srm```;
 - If you want to see the outputs of your application during its execution, you can run in the terminal: ```cp slurm-ID.out a.txt```, where ID is the job ID (number) provided by Slurm. The outputs of your application are redirected to this ```.out``` file. Hence, you may just call ```vim a.txt``` to see the current snapshot of your execution. 
+
+Moreover, Slurm provides several useful user commands, in addition to ```sbatch```, to work with a supercomputer. From these, it is worth mentioning: ```squeue```, ```sacct```, ```scancel```, and ```srun```. See more details [here](https://slurm.schedmd.com/quickstart.html#:~:text=The%20slurmd%20daemons%20provide%20fault,run%20anywhere%20in%20the%20cluster.) and [here](https://sdumont.lncc.br/support_manual.php?pg=support#7).
+
+For instance, if you want to cancel a submitted job, you type (ID is the job ID):
+
+```
+scancel ID
+```
+
+Moreover, let us say that you want to see what is the current status of the sequana_gpu_shared queue to where you have just submitted a job, then you type:
+
+```
+squeue | grep sequana_g
+```
+
+
+After executing the command ```squeue``` or ```sacct``` , the job can be in one of the states presented [here](https://slurm.schedmd.com/squeue.html) and also [here](https://sdumont.lncc.br/support_manual.php?pg=support#7).
+
 
 In a DL project like IDeepS, we can divide the job submission in three configurations (click on the respective links to see examples of submission scripts and code): [single node/single GPU](https://github.com/vsantjr/IDeepS/blob/master/Mark/sinnode.md#single-nodesingle-gpu), [single node/multiple GPUs](https://github.com/vsantjr/IDeepS/blob/master/Mark/sinnodemg.md#single-nodemultiple-gpus), and [multiple nodes/multiple GPUs](./Mark/mulnode_mulgpu.md).
 
