@@ -12,7 +12,7 @@ Researchers, professors and post-graduate students from the following organisati
 
 ## Overview of the SDumont Supercomputer
 
-The SDumont supercomputer has an installed processing capacity of 5.1 Petaflop/s presenting a hybrid configuration of computational nodes, in terms of the available parallel processing architecture. Currently, SDumont has a total of 36,472 CPU cores distributed across 1,134 computing nodes, most of which are made up exclusively of CPUs with a multi-core architecture. There is, however, a significant amount of additional nodes that, in addition to the same multi-core CPUs, contain device types with the so-called many-core architecture: GPU and MIC. More detailed information about the SDumont supercomputer can be seen [here](https://sdumont.lncc.br/support_manual.php?pg=support#5).
+The SDumont supercomputer has an installed processing capacity of 5.1 Petaflop/s presenting a hybrid configuration of computational nodes, in terms of the available parallel processing architecture. Currently, SDumont has a total of 36,472 CPU cores distributed across 1,134 computing nodes, most of which are made up exclusively of CPUs with a multi-core architecture. There is, however, a significant amount of additional nodes that, in addition to the same multi-core CPUs, contain device types with the so-called many-core architecture: GPU and MIC. More detailed information about the SDumont supercomputer can be seen [here](https://sdumont.lncc.br/support_manual.php?pg=support#1).
 
 There are several node configurations but here we show only the nodes the IDeepS project uses:
 
