@@ -5,9 +5,9 @@
 
 This repository is related to the project ***Classificação de imagens via redes neurais profundas e grandes bases de dados para aplicações aeroespaciais*** (Image classification via Deep neural networks and large databases for aeroSpace applications - IDeepS). The IDeepS project is supported by the *Laboratório Nacional de Computação Científica* ([LNCC](https://www.gov.br/lncc/pt-br)/MCTI, Brazil) via resources of the [SDumont](http://sdumont.lncc.br) supercomputer.
 
-The main goal of the repository is to provide directives/suggestions on how you can perform the setup and run deep learning (DL) applications in the SDumont supercomputer. We consider the DL framework [PyTorch](https://pytorch.org/) to run the DL code.
+The main goal of the repository is to provide directives/suggestions on how you can perform the setup and run deep learning (DL) applications in the SDumont supercomputer. We mainly consider the DL framework [PyTorch](https://pytorch.org/) to run the DL code but there are some remarks to use the library [TensorFlow](https://www.tensorflow.org/). The suggestions below are based on a Standard-type project which is the category of project IDeepS belongs.
 
-Institutions participating in the project: *Instituto Nacional de Pesquisas Espaciais* [(INPE)](https://www.gov.br/inpe/pt-br), *Instituto de Estudos Avançados* [(IEAv)](https://ieav.dcta.mil.br/).
+Researchers, professors and post-graduate students from the following organisations are involved in the project: *Instituto Nacional de Pesquisas Espaciais* [(INPE)](https://www.gov.br/inpe/pt-br), *Instituto de Estudos Avançados* [(IEAv)](https://ieav.dcta.mil.br/), *Universidade Federal de São Paulo - Campus São José dos Campos* [(UNIFESP)](https://www.unifesp.br/campus/sjc/), *Instituto Tecnológico de Aeronáutica* [(ITA)](http://www.ita.br/), and *Universidade Federal de São Carlos - Campus Sorocaba* [UFSCar](https://www.sorocaba.ufscar.br/).
 
 
 ## Overview of the SDumont Supercomputer
@@ -88,7 +88,7 @@ Thus, if the selected Python version is 3.9.6, then create the ```myenv``` envir
 conda create -n myenv python=3.9.6
 ```
 
-**IMPORTANT**: It is recommended to create as many different conda environments as necessary, specially if you want to work with several DL frameworks/libraries. For instance, if you need to work not only with PyTorch but also with [TensorFlow](https://www.tensorflow.org/), thus create a new conda environment to submit jobs with TensorFlow. This avoid potential conflicts. Moreover, some available DL models were developed and only work with specific versions of the DL libraries/frameworks. Thus, creating new conda environments for such versions is suggested.
+**IMPORTANT**: It is recommended to create as many different conda environments as necessary, specially if you want to work with several DL frameworks/libraries. For instance, if you need to work not only with PyTorch but also with TensorFlow, thus create a new conda environment to submit jobs with TensorFlow. This avoid potential conflicts. Moreover, some available DL models were developed and only work with specific versions of the DL libraries/frameworks. Thus, creating new conda environments for such versions is suggested.
 
 #### PyTorch
 
@@ -109,7 +109,24 @@ bash pytorchsrc.sh
 Note that such installation can take a considerable time to complete.
 
 **IMPORTANT**: If you need to install some libraries, packages, etc. it is highly recommended to do it via conda within the ennvironment you need such libraries, packages. Conda is interesting because of its clear structure, transparent file management (no installation of files outside its directory), lots of available packages, and so on. However, bear in mind that, depending on the software you want to install, you might eventually ask permission from LNCC.
- 
+
+#### TensorFlow
+
+If you want to use TensorFlow rather than or in addition to PyTorch, at least for now, it is not necessary to install TensorFlow from source as it is the case for PyTorch. However, it is highly recommended to create as many different conda environments as necessary, if you want to work with several DL frameworks/libraries. Thus, create a new conda environment to submit jobs with TensorFlow. This avoid potential conflicts. Moreover, some available DL models were developed and only work with specific versions of the DL libraries/frameworks. Thus, creating new conda environments for such versions is suggested.
+
+Hence, you can create a new environment (```myenvtf```) and install [TensorFlow](https://docs.anaconda.com/anaconda/user-guide/tasks/tensorflow/) as shown below:
+
+```
+conda create -n myenvtf tensorflow-gpu
+
+```
+
+After that, just activate the environment to use TensorFlow:
+
+```
+conda activate myenvtf
+```
+
 
 ## Submitting Jobs
 
