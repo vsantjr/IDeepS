@@ -111,7 +111,7 @@ Note that such installation can take a considerable time to complete.
 
 #### TensorFlow
 
-If you want to use TensorFlow rather than or in addition to PyTorch, at least for now, it is not necessary to install TensorFlow from source as it is the case for PyTorch. You can do it via conda as usual (see below). However, it is highly recommended to create as many different conda environments as necessary, if you want to work with several DL frameworks/libraries. Thus, create a new conda environment to submit jobs with TensorFlow. This avoid potential conflicts. Moreover, some available DL models were developed and only work with specific versions of the DL libraries/frameworks. Thus, creating new conda environments for such versions is suggested.
+If you want to use TensorFlow rather than or in addition to PyTorch, at least for now, it is not necessary to install TensorFlow from source as it is the case for PyTorch. You can do it via conda as usual (see below) and both NVIDIA's GPU (K40 and V100) are supported. However, it is highly recommended to create as many different conda environments as necessary, if you want to work with several DL frameworks/libraries. Thus, create a new conda environment to submit jobs with TensorFlow. This avoid potential conflicts. Moreover, some available DL models were developed and only work with specific versions of the DL libraries/frameworks. Thus, creating new conda environments for such versions is suggested.
 
 Hence, you can create a new environment (```myenvtf```) and install [TensorFlow](https://docs.anaconda.com/anaconda/user-guide/tasks/tensorflow/) as shown below:
 
