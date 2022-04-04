@@ -62,7 +62,7 @@ This submission script is very similar to the one for the [single node/single GP
 
 Click [here](../Code/cnn_gpus.py) to access the ```cnn_gpus.py``` program. This program was developed by Valdivino Santiago Júnior and [Eduardo Miranda](https://bit.ly/35ApPmg) based on recommendations from [IDRIS](http://www.idris.fr/eng/jean-zay/gpu/jean-zay-gpu-torch-multi-eng.html). It is a program that shows how to distribute a convolutional neural network (CNN) model implemented in PyTorch. Via Slurm, it allows to use multiple GPUs in a single node or in multiple nodes.
 
-One important program imported in the ```cnn_gpus.py``` code is ```sdenv.py``` (click [here](../Code/sdenv.py) to access it). This program was also developed based on recommendations from IDRIS (http://www.idris.fr/eng/jean-zay/gpu/jean-zay-gpu-torch-multi-eng.html). Its goal is to expose the Slurm parameter values according to the subscription script (```.srm```) in order to run jobs in multiple GPUs. Import this file into your Python code. 
+One important program imported in the ```cnn_gpus.py``` code is ```sdenv.py``` (click [here](../Code/sdenv.py) to access it). This program was also developed based on recommendations from [IDRIS](http://www.idris.fr/eng/jean-zay/gpu/jean-zay-gpu-torch-multi-eng.html). Its goal is to expose the Slurm parameter values according to the subscription script (```.srm```) in order to run jobs in multiple GPUs. Import this file into your Python code. 
 
 Moreover, we used the [imgnet320_c5](https://www.kaggle.com/datasets/valdivinosantiago/imgnet320-c5) dataset which is a subset of the imagenettetvt320 one with only 5 classes, and only the training and test datasets. But here, we used only the training dataset within the training phase.
 
