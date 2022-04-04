@@ -1,0 +1,47 @@
+#!/bin/bash
+#SBATCH --job-name cnn_gpus_1n          # SLURM_JOB_NAME
+#SBATCH --partition nvidia_dev          # SLURM_JOB_PARTITION
+#SBATCH --nodes=1                       # SLURM_JOB_NUM_NODES
+#SBATCH --ntasks-per-node=2             # SLURM_NTASKS_PER_NODE
+#SBATCH --cpus-per-task=10              # SLURM_CPUS_PER_TASK
+#SBATCH --exclusive                     # Exclusive acccess to nodes
+#SBATCH --no-requeue                    # No automated job resubmission
+#SBATCH --time=00:20:00                 # Define execution time
+
+# VARIABLES OF INTEREST IN THE SLURM ENVIRONMENT
+# <https://slurm.schedmd.com/sbatch.html>
+# SLURM_PROCID
+#     The MPI rank (or relative process ID) of the current process.
+# SLURM_LOCALID
+#     Node local task ID for the process within a job.
+# SLURM_NODEID
+#     ID of the nodes allocated. 
+
+echo '========================================'
+echo '- Job ID:' $SLURM_JOB_ID
+echo '- # of nodes in the job:' $SLURM_JOB_NUM_NODES
+echo '- # of tasks per node:' $SLURM_NTASKS_PER_NODE
+echo '- # of tasks:' $SLURM_NTASKS
+echo '- # of cpus per task:' $SLURM_CPUS_PER_TASK
+echo '- Dir from which sbatch was invoked:' ${SLURM_SUBMIT_DIR##*/}
+echo -n '- Nodes allocated to the job: '
+nodeset -e $SLURM_JOB_NODELIST
+
+# Go to the work directory from which sbatch was invoked
+cd $SLURM_SUBMIT_DIR
+
+# Load gcc compiler
+module load gcc/8.3
+
+# Activate your conda environment (myenv below) where PyTorch is installed
+source /scratch/proj/name.user/miniconda3/bin/activate
+conda activate myenv
+
+# Run your code
+echo -n '<1. starting python script > ' && date
+echo '-- output -----------------------------'
+
+srun python cnn_gpus.py --epochs 5 --batch-size 16
+
+echo '-- end --------------------------------'
+echo -n '<2. quit>                    ' && date

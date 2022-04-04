@@ -10,7 +10,7 @@ If you want to see the notebook version of this code with detailed explanations,
 '''
 Before running the code, do the following:
 
-1.) Download the test.zip (https://github.com/vsantjr/IDeepS/blob/master/Datasets/test.zip) dataset which is a small subset (1,294 images) of the imagenettetvt320 (https://www.kaggle.com/datasets/valdivinosantiago/imagenettetvt320) dataset. You can use the wget command to download the test.zip file to your working directory in the SDumont supercomputer;
+1.) Download the test.zip (https://github.com/vsantjr/IDeepS/blob/master/Datasets/test.zip) dataset which is a very small subset (1,294 images) of the imagenettetvt320 (https://www.kaggle.com/datasets/valdivinosantiago/imagenettetvt320) dataset;
 
 2.) Create a directory in your working directory called "img";
 
