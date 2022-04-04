@@ -153,7 +153,7 @@ squeue | grep sequana_g
 After executing the command ```squeue``` or ```sacct``` , the job can be in one of the states presented [here](https://slurm.schedmd.com/squeue.html) and also [here](https://sdumont.lncc.br/support_manual.php?pg=support#7).
 
 
-In a DL project like IDeepS, we can divide the job submission in three configurations (click on the respective links to see examples of submission scripts and code): [single node/single GPU](https://github.com/vsantjr/IDeepS/blob/master/Mark/sinnode.md#single-nodesingle-gpu), [single node/multiple GPUs](https://github.com/vsantjr/IDeepS/blob/master/Mark/sinnodemg.md#single-nodemultiple-gpus), and [multiple nodes/multiple GPUs](./Mark/mulnode_mulgpu.md).
+In a DL project like IDeepS, we can divide the job submission in three configurations (click on the respective links to see examples of submission scripts and code): [single node/single GPU](https://github.com/vsantjr/IDeepS/blob/master/Mark/sinnode.md#single-nodesingle-gpu), [single node/multiple GPUs](https://github.com/vsantjr/IDeepS/blob/master/Mark/multigpus.md#single-nodemultiple-gpus), and [multiple nodes/multiple GPUs](https://github.com/vsantjr/IDeepS/blob/master/Mark/multigpus.md#multiple-nodesmultiple-gpus).
 
 ## JupyterLab
 
