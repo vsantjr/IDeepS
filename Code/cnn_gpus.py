@@ -1,11 +1,11 @@
 '''
 Authors: Valdivino Alexandre de Santiago Júnior and Eduardo Furlan Miranda
-This program was developed based on recommendations from IDRIS (http://www.idris.fr/eng/jean-zay/gpu/jean-zay-gpu-torch-multi-eng.html). It is a program that shows how to distribute a convolutional neural network (CNN) model implemented PyTorch. Via SLURM, it allows to use multiple GPUs in a single node or in multiple nodes.
+This program was developed based on recommendations from IDRIS (http://www.idris.fr/eng/jean-zay/gpu/jean-zay-gpu-torch-multi-eng.html). It is a program that shows how to distribute a convolutional neural network (CNN) model implemented in PyTorch. Via SLURM, it allows to use multiple GPUs in a single node or in multiple nodes.
 '''
 
 '''
 Before running the code, do the following:
-1.) Download the imgnet320_c5.zip (https://github.com/vsantjr/IDeepS/blob/master/Datasets/test.zip) dataset which is a subset of the imagenettetvt320 (https://www.kaggle.com/datasets/valdivinosantiago/imagenettetvt320) dataset with only 5 classes, training and test datasets. But here, we will only use the training dataset within the training phase;
+1.) Download the imgnet320_c5.zip (https://www.kaggle.com/datasets/valdivinosantiago/imgnet320-c5) dataset which is a subset of the imagenettetvt320 one with only 5 classes, and only the training and test datasets. But here, we will only use the training dataset within the training phase;
 2.) Create a directory in your working directory called "img";
 3.) Unzip the dataset into the "img" directory: unzip imgnet320_c5.zip -d ./img. 
 '''
@@ -28,7 +28,7 @@ import sys
 import torch.nn.functional as F
 
 # Important hyper-parameters/variables.
-ninpf = 106 # Number of input features for the output (fully-connected) layer of the CNN.
+ninpf = 106 # Output dimension (W x H) which will be input to the output (fully-connected) layer of the CNN.
 nc = 5 # Number of classes.
 
 # Custom dataset that includes image file paths. Extends torchvision.datasets.ImageFolder.
