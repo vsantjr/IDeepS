@@ -1,6 +1,6 @@
 '''
 Authors: Valdivino Alexandre de Santiago Júnior and Eduardo Furlan Miranda
-This program was developed based on recommendations from IDRIS (http://www.idris.fr/eng/jean-zay/gpu/jean-zay-gpu-torch-multi-eng.html). It is a program that shows how to distribute a convolutional neural network (CNN) model implemented in PyTorch. Via SLURM, it allows to use multiple GPUs in a single node or in multiple nodes.
+This program was developed based on recommendations from IDRIS (http://www.idris.fr/eng/jean-zay/gpu/jean-zay-gpu-torch-multi-eng.html). It is a program that shows how to distribute a convolutional neural network (CNN) model implemented in PyTorch. Via Slurm, it allows to use multiple GPUs in a single node or in multiple nodes.
 '''
 
 '''
