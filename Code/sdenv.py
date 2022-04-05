@@ -32,7 +32,9 @@ if job_partition in ['nvidia', 'nvidia_small', 'nvidia_dev', 'nvidia_scal', 'nvi
 elif job_partition in ['sequana_gpu_shared', 'sdumont18']:
         gpu_ids = [0, 1, 2, 3]
 elif job_partition in ['gdl']:
-        gpu_ids = [0]
+        gpu_ids = [0, 1, 2, 3, 4, 5, 6, 7]
+else:
+        print('Wrong partition/queue name!')
 
 # Define the MASTER.
 MASTER_ADDR = hostnames[0]
