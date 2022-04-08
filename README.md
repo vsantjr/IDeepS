@@ -43,9 +43,9 @@ this queue can request a set of heterogeneous nodes for execution. But, in the c
 
 ## Connection, Login and File Transference
 
-In order to use the SDumont supercomputer, you should connect to the LNCC's VPN using the login and password provided to you. After connecting, you must login using the SSH network protocol. File transference from and to SDumont can be done via the SCP network protocol.
+In order to use the SDumont supercomputer, you should connect to the LNCC's VPN using the login and password provided to you. After connecting, you must login using the [SSH](https://man.openbsd.org/ssh.1) network protocol. File transference from and to SDumont can be done via the [SCP](https://man.openbsd.org/scp.1) network protocol. However, if SCP is too slow for your needs, you may use [Syncthing](https://syncthing.net/), a continuous file synchronisation program.
 
-[Here](./Mark/utsh.md), we present information and a simple shell script that can help to login and transfer files from/to SDumont.
+[Here](./Mark/utsh.md), we present information and a simple shell script that can help to login and transfer files, via SCP, from/to SDumont.
 
 **IMPORTANT**: It is likely you will experience broken pipe connection errors when using SSH. Hence, change your ```ssh_config``` (client) file so that it resembles something like this:
 
