@@ -91,9 +91,11 @@ conda create -n myenv python=3.9.6
 
 #### PyTorch
 
-It is required to build PyTorch from source since its newer versions do not support the NVIDIA K40 GPUs. If you install PyTorch in the ordinary way (via conda, pip), you will be allowed to submit jobs in only two out of the queues presented earlier: gdl and sequana_gpu_shared. 
+Since version 1.3.1 of PyTorch, the support for GPUs with NVIDIA compute capability 3.5 was dropped in their prebuilt binaries that you can get from conda or pip. Hence, NVIDIA K40 GPUs are no longer supported if you install PyTorch in the ordinary way (official binaries via conda or pip). Consequently, you will be allowed to submit jobs in only two out of the queues presented earlier in this case: gdl and sequana_gpu_shared. In order to run code developed in PyTorch using the other queues (nvidia, nvidia_small, nvidia_dev, ...), you may proceed in two different ways. 
 
-Firstly, activate your newly created environment:
+**1.) Installing PyTorch from Source**
+
+In this case, you will install PyTorch from the source code. Firstly, activate your newly created environment:
 
 ```
 conda activate myenv
@@ -105,13 +107,17 @@ conda activate myenv
 bash pytorchsrc.sh
 ```
 
-Note that such installation can take a considerable time to complete.
+Note that such installation can take a considerable time to complete. 
 
 **IMPORTANT**: If you need to install some libraries, packages, etc. it is highly recommended to do it via conda within the ennvironment you need such libraries, packages. Conda is interesting because of its clear structure, transparent file management (no installation of files outside its directory), lots of available packages, and so on. However, bear in mind that, depending on the software you want to install, you might eventually ask permission from LNCC.
 
+**2.) Using PyTorch Binaries for Legacy GPUs**
+
+In this case, you can follow the binaries provided by [Nelson Liu](https://blog.nelsonliu.me/2020/10/13/newer-pytorch-binaries-for-older-gpus/). Hence, you can rely on these new binaries that add back support for legacy GPUs such as NVIDIA K40 GPUs. Thus, follow the instructions in Nelson Liu's blog. This tip was given by [Lucas Silva](https://bit.ly/3r85cFh).
+
 #### TensorFlow
 
-If you want to use TensorFlow rather than or in addition to PyTorch, at least for now, it is not necessary to install TensorFlow from source as it is the case for PyTorch. You can do it via conda as usual (see below) and both NVIDIA's GPU (K40 and V100) are supported. However, it is highly recommended to create as many different conda environments as necessary, if you want to work with several DL frameworks/libraries. Thus, create a new conda environment to submit jobs with TensorFlow. This avoid potential conflicts. Moreover, some available DL models were developed and only work with specific versions of the DL libraries/frameworks. Thus, creating new conda environments for such versions is suggested.
+If you want to use TensorFlow rather than or in addition to PyTorch, at least for now, it is not necessary to install TensorFlow from source or relying on adapated binaries as it is the case for PyTorch. You can do it via conda as usual (see below) and both NVIDIA's GPUs (K40 and V100) are supported. However, it is highly recommended to create as many different conda environments as necessary, if you want to work with several DL frameworks/libraries. Thus, create a new conda environment to submit jobs with TensorFlow. This avoid potential conflicts. Moreover, some available DL models were developed and only work with specific versions of the DL libraries/frameworks. Thus, creating new conda environments for such versions is suggested.
 
 Hence, you can create a new environment (```myenvtf```) and install [TensorFlow](https://docs.anaconda.com/anaconda/user-guide/tasks/tensorflow/) as shown below:
 
