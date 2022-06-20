@@ -29,10 +29,10 @@ The IDeepS project is supported by the *Laboratório Nacional de Computação Ci
 | [Mateus de Souza Miranda](http://lattes.cnpq.br/2824146679184873)        | INPE |
 | [Rafael Marinho de Andrade](http://lattes.cnpq.br/4682129139227457) | INPE |
 | [Renato de Sousa Maximiano](http://lattes.cnpq.br/1945825460200477)      | INPE |
-| Roberto Neves Salles           | INPE/IEAv |
-| Samuel Felipe dos Santos  | UNIFESP |
-| Thales Sehn Körting          | INPE |
-| Valdivino Alexandre de Santiago Júnior (Head) | INPE |
+| [Roberto Neves Salles](http://lattes.cnpq.br/1079339034274017)           | INPE/IEAv |
+| [Samuel Felipe dos Santos](http://lattes.cnpq.br/6937319280473488)  | UNIFESP |
+| [Thales Sehn Körting](http://lattes.cnpq.br/8609036872819243)          | INPE |
+| [Valdivino Alexandre de Santiago Júnior (Coord.)](http://lattes.cnpq.br/5039690360728170) | INPE |
 
 
 ## SDumont User Manual: Deep Learning
