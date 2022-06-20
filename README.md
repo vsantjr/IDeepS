@@ -37,7 +37,7 @@ The IDeepS project is supported by the *Laboratório Nacional de Computação Ci
 
 ## SDumont User Manual: Deep Learning
 
-Directives and suggestions on how one can perform the setup and run deep learning (DL) applications in the SDumont supercomputer are presented [here](https://pytorch.org/). 
+Directives and suggestions on how one can perform the setup and run deep learning (DL) applications in the SDumont supercomputer are presented [here](https://github.com/vsantjr/IDeepS/blob/master/Mark/usermanualdl.md#sdumont-user-manual:-deep-learning). 
 
 
 
