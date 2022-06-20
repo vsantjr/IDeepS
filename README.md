@@ -15,6 +15,8 @@ The IDeepS project is supported by the *Laboratório Nacional de Computação Ci
 
 ## Team
 
+| Member                                                                   | Organisation |
+| ------------------------------------------------------------------       | ------------ | 
 | [Baggio Luiz de Castro e Silva](http://lattes.cnpq.br/4816443925174561)  | INPE |
 | [Bruno Nardi de Carvalho Dantas](http://lattes.cnpq.br/4111398377089142) | ITA |
 | [Elcio Hideiti Shiguemori](http://lattes.cnpq.br/7243145638158319)      | IEAv |
