@@ -11,7 +11,7 @@ The IDeepS project is supported by the *Laboratório Nacional de Computação Ci
 
 ## Publications
 
-:white_check_mark: V. A. Santiago Júnior. A Method and Experiment to evaluate Deep Neural Networks as Test Oracles for Scientific Software. In: Proceedings of the 3rd ACM/IEEE International Conference on Automation of Software Test (AST 2022, co-located with ICSE 2022), 2022, Pittsburgh, PA, USA. Accepted. To appear.
+:white_check_mark: V. A. Santiago Júnior. A Method and Experiment to evaluate Deep Neural Networks as Test Oracles for Scientific Software. In: Proceedings of the 2022 IEEE/ACM International Conference on Automation of Software Test (AST 2022, co-located with ICSE 2022), 2022, Pittsburgh, PA, USA, p. 40-51. Access [here](https://ieeexplore.ieee.org/document/9796455).
 
 :eight_pointed_black_star: M. S. Miranda, L. F. A. Silva, S. F. dos Santos, V. A. Santiago Júnior, T. S. Körting, and J. Almeida Junior. A High-Spatial Resolution Dataset and Few-shot Deep Learning Benchmark for Image Classification. Submitted.
 
