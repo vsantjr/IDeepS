@@ -27,6 +27,7 @@ The IDeepS project is supported by the *Laboratório Nacional de Computação Ci
 | [Jurandy Gomes de Almeida Junior](http://lattes.cnpq.br/4495269939725770) | UFSCar |
 | [Lucas Fernando Alvarenga e Silva](http://lattes.cnpq.br/4140520490333280) | UNIFESP |
 | [Mateus de Souza Miranda](http://lattes.cnpq.br/2824146679184873)        | INPE |
+| [Nathan Augusto Zacarias Xavier](http://lattes.cnpq.br/2088578568009855) | ITA |
 | [Rafael Marinho de Andrade](http://lattes.cnpq.br/4682129139227457) | INPE |
 | [Renato de Sousa Maximiano](http://lattes.cnpq.br/1945825460200477)      | INPE |
 | [Roberto Neves Salles](http://lattes.cnpq.br/1079339034274017)           | INPE/IEAv |
