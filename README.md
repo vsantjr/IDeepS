@@ -9,6 +9,10 @@ In addition, the project intends to identify the best DNNs to support autonomous
 
 The IDeepS project is supported by the *Laboratório Nacional de Computação Científica* ([LNCC](https://www.gov.br/lncc/pt-br)/MCTI, Brazil) via resources of the [SDumont](http://sdumont.lncc.br) supercomputer. Researchers, professors and post-graduate students from the following organisations are involved in the project: *Instituto Nacional de Pesquisas Espaciais* [(INPE)](https://www.gov.br/inpe/pt-br), *Instituto de Estudos Avançados* [(IEAv)](https://ieav.dcta.mil.br/), *Universidade Federal de São Paulo - Campus São José dos Campos* [(UNIFESP)](https://www.unifesp.br/campus/sjc/), *Instituto Tecnológico de Aeronáutica* [(ITA)](http://www.ita.br/), and *Universidade Federal de São Carlos - Campus Sorocaba* [(UFSCar)](https://www.sorocaba.ufscar.br/).
 
+## Workshop (NEW)
+
+The IDeepS project Workshop will be held on **August 18, 2022**. Click [here](https://www.gov.br/inpe/pt-br) for more information (in Portuguese).
+
 ## Publications
 
 :white_check_mark: V. A. Santiago Júnior. A Method and Experiment to evaluate Deep Neural Networks as Test Oracles for Scientific Software. In: Proceedings of the 2022 IEEE/ACM International Conference on Automation of Software Test (AST 2022, co-located with ICSE 2022), 2022, Pittsburgh, PA, USA, p. 40-51. Access [here](https://ieeexplore.ieee.org/document/9796455).
