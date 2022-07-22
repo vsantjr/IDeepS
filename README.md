@@ -3,7 +3,7 @@
 
 <img src="https://github.com/vsantjr/CAP/blob/master/Images/logo1ideeps.png" width=58%>
 
-The project ***Classificação de imagens via redes neurais profundas e grandes bases de dados para aplicações aeroespaciais*** (Image classification via Deep neural networks and large databases for aeroSpace applications - ***IDeepS***) aims to carry out a large-scale investigation of several existing deep neural networks (DNNs), identifying strengths and weaknesses, in order to automate and improve remote sensing image classification to support land cover analysis accomplished by the *Instituto Nacional de Pesquisas Espaciais* (INPE). Results of the IDeepS project may contribute to the measurements issued by INPE regarding deforestation and fire outbreaks. 
+The project ***Classificação de imagens via redes neurais profundas e grandes bases de dados para aplicações aeroespaciais*** (Image classification via Deep neural networks and large databases for aeroSpace applications - ***IDeepS***) aims to carry out a large-scale investigation of several existing deep neural networks (DNNs), in order to primarily automate and improve remote sensing image classification to support land cover analysis accomplished by the *Instituto Nacional de Pesquisas Espaciais* (INPE). Other computational vision tasks, such as object detection and semantic segmentation, are also addressed in the project. Results of the IDeepS project may contribute to the information issued by INPE regarding deforestation and fire outbreaks. 
 
 In addition, the project intends to identify the best DNNs to support autonomous drone flights, for example, to improve the autonomy of these systems with regard to the response to disasters and emergency situations in areas of difficult access. Thus, this project may guide other actions for the increasing dissemination of low-cost UAVs in civil and military applications. 
 
@@ -33,7 +33,7 @@ The IDeepS project is supported by the *Laboratório Nacional de Computação Ci
 | [Roberto Neves Salles](http://lattes.cnpq.br/1079339034274017)           | INPE/IEAv |
 | [Samuel Felipe dos Santos](http://lattes.cnpq.br/6937319280473488)  | UNIFESP |
 | [Thales Sehn Körting](http://lattes.cnpq.br/8609036872819243)          | INPE |
-| [Valdivino Alexandre de Santiago Júnior (Coord.)](http://lattes.cnpq.br/5039690360728170) | INPE |
+| [Valdivino Alexandre de Santiago Júnior (**Coordinator**)](http://lattes.cnpq.br/5039690360728170) | INPE |
 
 
 ## SDumont User Manual: Deep Learning
