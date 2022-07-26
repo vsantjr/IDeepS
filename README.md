@@ -11,7 +11,7 @@ The IDeepS project is supported by the *Laboratório Nacional de Computação Ci
 
 ## Workshop (NEW)
 
-The IDeepS project Workshop will be held on **August 18, 2022**. Click [here](https://www.gov.br/inpe/pt-br) for more information (in Portuguese).
+The IDeepS project Workshop will be held on **August 18, 2022**. Click [here](https://www.gov.br/inpe/pt-br/eventos/workshop-ideeps/2022) for more information (in Portuguese).
 
 ## Publications
 
