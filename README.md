@@ -36,6 +36,7 @@ The IDeepS project Workshop will be held on **August 18, 2022**. Click [here](ht
 | [Renato de Sousa Maximiano](http://lattes.cnpq.br/1945825460200477)      | INPE |
 | [Roberto Neves Salles](http://lattes.cnpq.br/1079339034274017)           | INPE/IEAv |
 | [Samuel Felipe dos Santos](http://lattes.cnpq.br/6937319280473488)  | UNIFESP |
+| [Tahisa Neitzel Kuck](http://lattes.cnpq.br/5916336585782787)     |  IEAv  |
 | [Thales Sehn Körting](http://lattes.cnpq.br/8609036872819243)          | INPE |
 | [Valdivino Alexandre de Santiago Júnior (**Coordinator**)](http://lattes.cnpq.br/5039690360728170) | INPE |
 
