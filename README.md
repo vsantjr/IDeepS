@@ -11,7 +11,7 @@ The IDeepS project is supported by the *Laboratório Nacional de Computação Ci
 
 ## Workshop (NEW)
 
-On August 18, 2022, the IDeepS project Workshop was held. The event's website can be accessed [here](https://www.gov.br/inpe/pt-br/eventos/workshop-ideeps/2022). The Workshop took place in a hybrid way. Participants were able to attend via the Zoom platform and in person at INPE. The Workshop was also broadcast in real time via the YouTube channel of the *Programa de Pós-Graduação em Computação Aplicada* [(CAP/INPE)](https://www.youtube.com/c/PGCAPINPE). Click [here](../Workshop/workshop.md) to see photos of some of the participants and speakers who were in person at INPE.
+On August 18, 2022, the IDeepS project Workshop was held. The event's website can be accessed [here](https://www.gov.br/inpe/pt-br/eventos/workshop-ideeps/2022). The Workshop took place in a hybrid way. Participants were able to attend via the Zoom platform and in person at INPE. The Workshop was also broadcast in real time via the YouTube channel of the *Programa de Pós-Graduação em Computação Aplicada* [(CAP/INPE)](https://www.youtube.com/c/PGCAPINPE). Click [here](./Workshop/workshop.md) to see photos of some of the participants and speakers who were in person at INPE.
 
 
 ## Publications
