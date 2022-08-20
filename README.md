@@ -11,13 +11,14 @@ The IDeepS project is supported by the *Laboratório Nacional de Computação Ci
 
 ## Workshop (NEW)
 
-The IDeepS project Workshop will be held on **August 18, 2022**. Click [here](https://www.gov.br/inpe/pt-br/eventos/workshop-ideeps/2022) for more information (in Portuguese).
+On August 18, 2022, the IDeepS project Workshop was held. The event's website can be accessed [here](https://www.gov.br/inpe/pt-br/eventos/workshop-ideeps/2022). The Workshop took place in a hybrid way. Participants were able to attend via the Zoom platform and in person at INPE. The Workshop was also broadcast in real time via the YouTube channel of the *Programa de Pós-Graduação em Computação Aplicada* [(CAP/INPE)](https://www.youtube.com/c/PGCAPINPE). Click [here](../Workshop/workshop.md) to see photos of some of the participants and speakers who were in person at INPE.
+
 
 ## Publications
 
 :white_check_mark: V. A. Santiago Júnior. A Method and Experiment to evaluate Deep Neural Networks as Test Oracles for Scientific Software. In: Proceedings of the 2022 IEEE/ACM International Conference on Automation of Software Test (AST 2022, co-located with ICSE 2022), 2022, Pittsburgh, PA, USA, p. 40-51. Access [here](https://ieeexplore.ieee.org/document/9796455).
 
-<!--- :eight_pointed_black_star: M. S. Miranda, L. F. A. Silva, S. F. dos Santos, V. A. Santiago Júnior, T. S. Körting, and J. Almeida Junior. A High-Spatial Resolution Dataset and Few-shot Deep Learning Benchmark for Image Classification. Submitted. --->
+:white_check_mark: M. S. Miranda, L. F. A. Silva, S. F. dos Santos, V. A. Santiago Júnior, T. S. Körting, and J. Almeida Junior. A High-Spatial Resolution Dataset and Few-shot Deep Learning Benchmark for Image Classification. In: The 35th Conference on Graphics, Patterns and Images (SIBGRAPI 2022), 2022, Natal, RN, Brazil. Accepted for publication. 
 
 ## Team
 
