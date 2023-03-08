@@ -37,7 +37,6 @@ Click [here](./Mark/workshop.md) to see photos of some of the participants and s
 | [Bruno Nardi de Carvalho Dantas](http://lattes.cnpq.br/4111398377089142) | ITA |
 | [Elcio Hideiti Shiguemori](http://lattes.cnpq.br/7243145638158319)      | IEAv |
 | [Fabiano da Cruz Nogueira](http://lattes.cnpq.br/6031798071842880)       | INPE/IEAv |
-| [Felipe Pacheco de Almeida Euphrásio](http://lattes.cnpq.br/6438854409003930) | ITA |
 | [Jurandy Gomes de Almeida Junior](http://lattes.cnpq.br/4495269939725770) | UFSCar |
 | [Lucas Fernando Alvarenga e Silva](http://lattes.cnpq.br/4140520490333280) | UNIFESP |
 | [Mateus de Souza Miranda](http://lattes.cnpq.br/2824146679184873)        | INPE |
