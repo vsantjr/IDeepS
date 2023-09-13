@@ -20,13 +20,20 @@ Click [here](./Mark/workshop.md) to see photos of some of the participants and s
 
 ## Publications
 
+:white_check_mark: V. A. Santiago Júnior. Evaluating Deep Learning Techniques for Blind Image Super-Resolution within a High-Scale Multi-Domain Perspective. AI, v. 4, p. 598-619, 2023. Access [here](https://www.mdpi.com/2673-2688/4/3/32).
+
+:white_check_mark: S. F. dos Santos, R. Berriel, T. Oliveira-Santos, N. Sebe, J. Almeida. Budget-Aware Pruning for Multi-domain Learning. In: Proceedings of the 22nd International Conference on Image Analysis and Processing (ICIAP 2023), 2023, p. 1-12. Access [here](https://www.springerprofessional.de/budget-aware-pruning-for-multi-domain-learning/26004324). 
+
+:white_check_mark: V. A. Santiago Júnior. Deep learning techniques for blind image super-resolution: A high-scale multi-domain perspective evaluation. arXiv:2306.09426 [eess.IV], 2023. Access [here](https://arxiv.org/abs/2306.09426). 
+
 :white_check_mark: V. A. Santiago Júnior. A Method and Experiment to evaluate Deep Neural Networks as Test Oracles for Scientific Software. In: Proceedings of the 2022 IEEE/ACM International Conference on Automation of Software Test (AST 2022, co-located with ICSE 2022), 2022, Pittsburgh, PA, USA, p. 40-51. Access [here](https://ieeexplore.ieee.org/document/9796455).
 
-:white_check_mark: M. S. Miranda, L. F. A. Silva, S. F. dos Santos, V. A. Santiago Júnior, T. S. Körting, and J. Almeida. A High-Spatial Resolution Dataset and Few-shot Deep Learning Benchmark for Image Classification. In: The 35th Conference on Graphics, Patterns and Images (SIBGRAPI 2022), 2022, Natal, RN, Brazil. Accepted for publication. 
+:white_check_mark: M. S. Miranda, L. F. A. Silva, S. F. dos Santos, V. A. Santiago Júnior, T. S. Körting, and J. Almeida. A High-Spatial Resolution Dataset and Few-shot Deep Learning Benchmark for Image Classification. In: Proceedings of The 35th Conference on Graphics, Patterns and Images (SIBGRAPI 2022), 2022, Natal, RN, Brazil, p. 19-24. Access [here](https://ieeexplore.ieee.org/document/9991746). 
 
-:white_check_mark: R. S. Maximiano, V. A. Santiago Júnior, and E. H. Shiguemori. Artificial neural networks to analyze energy consumption and temperature of UAV on-board computers executing algorithms for object detection. In: 11th Brazilian Conference on Intelligent Systems (BRACIS 2022), 2022, Campinas, SP, Brazil. Accepted for publication.
+:white_check_mark: R. S. Maximiano, V. A. Santiago Júnior, and E. H. Shiguemori. Artificial Neural Networks to Analyze Energy Consumption and Temperature of UAV On-Board Computers Executing Algorithms for Object Detection. In: Proceedings of the 11th Brazilian Conference on Intelligent Systems (BRACIS 2022), 2022, Campinas, SP, Brazil, v. 13654, p. 523-538. Access [here](https://link.springer.com/chapter/10.1007/978-3-031-21689-3_37).
 
-:white_check_mark: R. S. Maximiano, V. A. Santiago Júnior, and E. H. Shiguemori. On the benefits of automated tuning of hyperparameters: an experiment related to temperature prediction on UAV computers. In: 19th National Meeting on Artificial and Computational Intelligence (ENIAC 2022), 2022, Campinas, SP, Brazil. Accepted for publication.  
+:white_check_mark: R. S. Maximiano, V. A. Santiago Júnior, and E. H. Shiguemori. On the benefits of automated tuning of hyperparameters: an experiment related to temperature prediction on UAV computers. In: Proceedings of the XIX Encontro Nacional de Inteligência Artificial e Computacional (ENIAC 2022), 2022, Campinas, SP, Brazil, v. 1. p. 509-520. Access [here](https://sol.sbc.org.br/index.php/eniac/article/view/22808).
+
 
 
 ## Team
@@ -40,6 +47,7 @@ Click [here](./Mark/workshop.md) to see photos of some of the participants and s
 | [Jurandy Gomes de Almeida Junior](http://lattes.cnpq.br/4495269939725770) | UFSCar |
 | [Lucas Fernando Alvarenga e Silva](http://lattes.cnpq.br/4140520490333280) | UNIFESP |
 | [Mateus de Souza Miranda](http://lattes.cnpq.br/2824146679184873)        | INPE |
+| [Moisés José dos Santos Freitas](http://lattes.cnpq.br/9275786037892188) | ITA |  
 | [Nathan Augusto Zacarias Xavier](http://lattes.cnpq.br/2088578568009855) | ITA |
 | [Rafael Marinho de Andrade](http://lattes.cnpq.br/4682129139227457) | INPE |
 | [Renato de Sousa Maximiano](http://lattes.cnpq.br/1945825460200477)      | INPE |
