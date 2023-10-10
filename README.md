@@ -22,6 +22,10 @@ Click [here](./Mark/workshop.md) to see photos of some of the participants and s
 
 :white_check_mark: V. A. Santiago Júnior. Evaluating Deep Learning Techniques for Blind Image Super-Resolution within a High-Scale Multi-Domain Perspective. AI, v. 4, p. 598-619, 2023. Access [here](https://www.mdpi.com/2673-2688/4/3/32).
 
+:white_check_mark: L. F. A. Silva, N. Sebe, and J. Almeida. Tightening Classification Boundaries in Open Set Domain Adaptation through Unknown Exploitation. In: Proceedings of The 36th Conference on Graphics, Patterns and Images (SIBGRAPI 2023), 2023, Rio Grande, RS, Brazil, Accepted for publication. Access [here](http://urlib.net/ibi/8JMKD3MGPEW34M/49LHPT8).
+
+:white_check_mark: L. F. A. Silva and J. Almeida. Open Set Domain Adaptation Methods in Deep Networks for Image Recognition. In: Proceedings of The 36th Conference on Graphics, Patterns and Images (SIBGRAPI 2023), 2023, Rio Grande, RS, Brazil, Accepted for publication. Access [here](http://urlib.net/ibi/8JMKD3MGPEW34M/49S978P).
+
 :white_check_mark: S. F. dos Santos, R. Berriel, T. Oliveira-Santos, N. Sebe, J. Almeida. Budget-Aware Pruning for Multi-domain Learning. In: Proceedings of the 22nd International Conference on Image Analysis and Processing (ICIAP 2023), 2023, p. 1-12. Access [here](https://www.springerprofessional.de/budget-aware-pruning-for-multi-domain-learning/26004324). 
 
 :white_check_mark: V. A. Santiago Júnior. Deep learning techniques for blind image super-resolution: A high-scale multi-domain perspective evaluation. arXiv:2306.09426 [eess.IV], 2023. Access [here](https://arxiv.org/abs/2306.09426). 
