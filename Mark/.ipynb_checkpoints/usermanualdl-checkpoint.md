@@ -21,7 +21,7 @@ There are several node configurations but here we show only the nodes the IDeepS
 
 ## Jobs Queues
 
-SDumont's operating system is [RedHat Linux 7.6](https://www.redhat.com/pt-br). Job submission must be done via the cluster management and job scheduling system [Slurm](https://slurm.schedmd.com/documentation.html). Below we show the type of jobs queues the IDeepS project can use. In the Node column, we show the type of node related to the queue but note that other nodes may be used in some queues. For instance, the het_scal queue has 64 nodes with CPU architecture and 64 nodes with GPU architecture. The jobs submitted to
+SDumont's operating system is [RedHat Linux 7.6](https://access.redhat.com/documentation/pt-br/red_hat_enterprise_linux/7/html-single/7.6_release_notes/index). Job submission must be done via the cluster management and job scheduling system [Slurm](https://slurm.schedmd.com/documentation.html). Below we show the type of jobs queues the IDeepS project can use. In the Node column, we show the type of node related to the queue but note that other nodes may be used in some queues. For instance, the het_scal queue has 64 nodes with CPU architecture and 64 nodes with GPU architecture. The jobs submitted to
 this queue can request a set of heterogeneous nodes for execution. But, in the case of the IDeepS project, the most desired resources are the nodes with GPU due to the characteristics of DL applications. The Maximum Wallclock refers to the maximum time a job can run in the respective node without being interrupted by a timeout. Note that the queues in **bold** mean those exclusive to a Premium-type project.
 
 
@@ -163,9 +163,7 @@ In a DL project like IDeepS, we can divide the job submission in three configura
 
 ## JupyterLab
 
-JupyteLab can also be executed in SDumont to support interactive computing. Click [here](https://sites.usp.br/cadase/recursos-computacionais/tutoriais-sdumont/) to see how you can start JupyterLab in SDumont and access your notebooks stored in the supercomputer. 
-
-However, for more non-trivial DL applications, the most suitable approach to take advantages of a supercomputer seems to be as shown in the Submitting Jobs subsections above, by creating a separate submission script (```.srm```) and calling Python within such a script.
+JupyteLab can also be executed in SDumont to support interactive computing. However, for more non-trivial DL applications, the most suitable approach to take advantages of a supercomputer seems to be as shown in the Submitting Jobs subsections above, by creating a separate submission script (```.srm```) and calling Python within such a script.
 
 But you can start JupyterLab locally in your machine and launch a terminal session as shown in the figure below.
 
