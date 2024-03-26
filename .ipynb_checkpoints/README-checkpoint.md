@@ -3,11 +3,9 @@
 
 <img src="https://github.com/vsantjr/CAP/blob/master/Images/logo1ideeps.png" width=58%>
 
-The project ***Classificação de imagens e dados via redes neurais profundas para múltiplos domínios*** (Image and data classification via Deep neural networks for multiple domainS - ***IDeepS***) is a continuation of a previous project and whose current objective is to propose recommendations/suggestions for the best deep neural network (DNN) models to be used for the remote sensing (which includes aerial images obtained by unmanned aerial vehicles (UAVs), airplanes, as well as images obtained by satellites), astrophysics, and health domains. 
+The project ***Classificação de imagens e dados via redes neurais profundas para múltiplos domínios*** (Image and data classification via Deep neural networks for multiple domainS - ***IDeepS***) is a continuation of a previous project and whose current objective is to propose recommendations/suggestions for the best deep neural network (DNN) models to be used for the remote sensing (which includes aerial images obtained by unmanned aerial vehicles (UAVs), airplanes, as well as images obtained by satellites), astrophysics, and health domains. Image classification will be the main computer vision task considered, but other tasks will be evaluated, also considering the greater diversity of distinct data.
 
-Image classification will be the main computer vision task considered, but other tasks will be evaluated, also considering the greater diversity of distinct data.
-
-The IDeepS project is supported by the *Laboratório Nacional de Computação Científica* ([LNCC](https://www.gov.br/lncc/pt-br)/MCTI, Brazil) via resources of the [SDumont](http://sdumont.lncc.br) supercomputer. Researchers, professors and post-graduate students from the following organisations are involved in the project: *Instituto Nacional de Pesquisas Espaciais* [(INPE)](https://www.gov.br/inpe/pt-br), *Instituto de Estudos Avançados* [(IEAv)](https://ieav.dcta.mil.br/), *Universidade Federal de São Paulo - Campus São José dos Campos* [(UNIFESP)](https://www.unifesp.br/campus/sjc/), *Universidade Federal de São Carlos - Campus Sorocaba* [(UFSCar)](https://www.sorocaba.ufscar.br/), and *Universidade Estadual Paulista Júlio de Mesquita Filho (UNESP) - Campus Bauru*.
+The IDeepS project is supported by the *Laboratório Nacional de Computação Científica* ([LNCC](https://www.gov.br/lncc/pt-br)/MCTI, Brazil) via resources of the [SDumont](http://sdumont.lncc.br) supercomputer. Researchers, professors and post-graduate students from the following organisations are involved in the project: *Instituto Nacional de Pesquisas Espaciais* [(INPE)](https://www.gov.br/inpe/pt-br), *Instituto de Estudos Avançados* [(IEAv)](https://ieav.dcta.mil.br/), *Universidade Federal de São Paulo - Campus São José dos Campos* [(UNIFESP)](https://www.unifesp.br/campus/sjc/), *Universidade Federal de São Carlos - Campus Sorocaba* [(UFSCar)](https://www.sorocaba.ufscar.br/), and *Universidade Estadual Paulista Júlio de Mesquita Filho - Campus Bauru* [(UNESP)](https://www.bauru.unesp.br/).
 
 
 ## Publications
@@ -36,20 +34,20 @@ The IDeepS project is supported by the *Laboratório Nacional de Computação Ci
 
 | Member                                                                   | Organisation |
 | ------------------------------------------------------------------       | ------------ | 
-| [Baggio Luiz de Castro e Silva](http://lattes.cnpq.br/4816443925174561)  | INPE |
+| [Álvaro Luiz Fazenda](http://lattes.cnpq.br/7606159905559544)            | UNIFESP |
 | [Bruno Nardi de Carvalho Dantas](http://lattes.cnpq.br/4111398377089142) | ITA |
+| [Daniel Augusto de Sousa Mendes](http://lattes.cnpq.br/3461067348884455) | INPE |
+| [Eduardo Bouhid Neto](http://lattes.cnpq.br/0204534910626516)            | UNIFESP |
 | [Elcio Hideiti Shiguemori](http://lattes.cnpq.br/7243145638158319)      | IEAv |
-| [Fabiano da Cruz Nogueira](http://lattes.cnpq.br/6031798071842880)       | INPE/IEAv |
+| [Hugo Resende](http://lattes.cnpq.br/9907206893187416)                   | UNIFESP |
+| [João Paulo Papa] (http://lattes.cnpq.br/9039182932747194)               | UNESP |
 | [Jurandy Gomes de Almeida Junior](http://lattes.cnpq.br/4495269939725770) | UFSCar |
-| [Lucas Fernando Alvarenga e Silva](http://lattes.cnpq.br/4140520490333280) | UNIFESP |
+| [Marcelo Augusto Sudo](http://lattes.cnpq.br/1750775781178709)            | UNIFESP |
 | [Mateus de Souza Miranda](http://lattes.cnpq.br/2824146679184873)        | INPE |
-| [Moisés José dos Santos Freitas](http://lattes.cnpq.br/9275786037892188) | ITA |  
 | [Nathan Augusto Zacarias Xavier](http://lattes.cnpq.br/2088578568009855) | ITA |
 | [Rafael Marinho de Andrade](http://lattes.cnpq.br/4682129139227457) | INPE |
-| [Renato de Sousa Maximiano](http://lattes.cnpq.br/1945825460200477)      | INPE |
-| [Roberto Neves Salles](http://lattes.cnpq.br/1079339034274017)           | INPE/IEAv |
+| [Reinaldo Roberto Rosa](http://lattes.cnpq.br/2840176439889517)      | INPE |
 | [Samuel Felipe dos Santos](http://lattes.cnpq.br/6937319280473488)  | UNIFESP |
-| [Tahisa Neitzel Kuck](http://lattes.cnpq.br/5916336585782787)     |  IEAv  |
 | [Thales Sehn Körting](http://lattes.cnpq.br/8609036872819243)          | INPE |
 | [Valdivino Alexandre de Santiago Júnior (**Coordinator**)](http://lattes.cnpq.br/5039690360728170) | INPE |
 
