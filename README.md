@@ -1,7 +1,7 @@
 # Project IDeepS
 
 
-<img src="https://github.com/vsantjr/CAP/blob/master/Images/logo1ideeps.png" width=58%>
+<img src="https://github.com/vsantjr/CAP/blob/master/Images/logo2ideeps.png" width=58%>
 
 The project ***Classificação de imagens e dados via redes neurais profundas para múltiplos domínios*** (Image and data classification via Deep neural networks for multiple domainS - ***IDeepS***) is a continuation of a previous project and whose current objective is to propose recommendations/suggestions for the best deep neural network (DNN) models to be used for the remote sensing (which includes aerial images obtained by unmanned aerial vehicles (UAVs), airplanes, as well as images obtained by satellites), astrophysics, and health domains. Image classification will be the main computer vision task considered, but other tasks will be evaluated, also taking into account the greater diversity of distinct data.
 
