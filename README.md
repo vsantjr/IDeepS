@@ -70,4 +70,4 @@ This project is licensed under the GNU GENERAL PUBLIC LICENSE, Version 3 (GPLv3)
 
 Please cite this repository if you use it as:
 
-V. A. Santiago J&uacute;nior. Project IDeepS, 2024. Acessed on: *date of access*. Available: https://github.com/vsantjr/IDeepS. 
+V. A. Santiago J&uacute;nior. Project IDeepS, 2024. Acessed on: *date of access*. Available at: https://github.com/vsantjr/IDeepS. 
