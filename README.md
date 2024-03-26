@@ -40,7 +40,7 @@ The IDeepS project is supported by the *Laboratório Nacional de Computação Ci
 | [Eduardo Bouhid Neto](http://lattes.cnpq.br/0204534910626516)            | UNIFESP |
 | [Elcio Hideiti Shiguemori](http://lattes.cnpq.br/7243145638158319)      | IEAv |
 | [Hugo Resende](http://lattes.cnpq.br/9907206893187416)                   | UNIFESP |
-| [João Paulo Papa] (http://lattes.cnpq.br/9039182932747194)               | UNESP |
+| [João Paulo Papa](http://lattes.cnpq.br/9039182932747194)               | UNESP |
 | [Jurandy Gomes de Almeida Junior](http://lattes.cnpq.br/4495269939725770) | UFSCar |
 | [Marcelo Augusto Sudo](http://lattes.cnpq.br/1750775781178709)            | UNIFESP |
 | [Mateus de Souza Miranda](http://lattes.cnpq.br/2824146679184873)        | INPE |
@@ -54,7 +54,7 @@ The IDeepS project is supported by the *Laboratório Nacional de Computação Ci
 
 ## SDumont User Manual: Deep Learning
 
-Directives and suggestions on how one can perform the setup and run deep learning (DL) applications in the SDumont supercomputer are presented [here](https://github.com/vsantjr/IDeepS/blob/master/Mark/usermanualdl.md#sdumont-user-manual-deep-learning). 
+Directives and suggestions on how one can perform the setup and run deep learning (DL) applications in the SDumont supercomputer are presented [here](https://github.com/vsantjr/IDeepS/blob/cycle2/Mark/usermanualdl.md#sdumont-user-manual-deep-learning). 
 
 
 
