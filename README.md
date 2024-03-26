@@ -3,15 +3,16 @@
 
 <img src="https://github.com/vsantjr/CAP/blob/master/Images/logo1ideeps.png" width=58%>
 
-The project ***Classificação de imagens e dados via redes neurais profundas para múltiplos domínios*** (Image and data classification via Deep neural networks for multiple domainS - ***IDeepS***) is a continuation of a previous project and whose current objective is to propose recommendations/suggestions for the best deep neural network (DNN) models to be used, with the main focus being the task of image classification, for the remote sensing (which includes aerial images obtained by unmanned aerial vehicles (UAVs), airplanes, as well as images obtained by satellites), astrophysics, and health domains. 
- 
+The project ***Classificação de imagens e dados via redes neurais profundas para múltiplos domínios*** (Image and data classification via Deep neural networks for multiple domainS - ***IDeepS***) is a continuation of a previous project and whose current objective is to propose recommendations/suggestions for the best deep neural network (DNN) models to be used for the remote sensing (which includes aerial images obtained by unmanned aerial vehicles (UAVs), airplanes, as well as images obtained by satellites), astrophysics, and health domains. 
 
-The IDeepS project is supported by the *Laboratório Nacional de Computação Científica* ([LNCC](https://www.gov.br/lncc/pt-br)/MCTI, Brazil) via resources of the [SDumont](http://sdumont.lncc.br) supercomputer. Researchers, professors and post-graduate students from the following organisations are involved in the project: *Instituto Nacional de Pesquisas Espaciais* [(INPE)](https://www.gov.br/inpe/pt-br), *Instituto de Estudos Avançados* [(IEAv)](https://ieav.dcta.mil.br/), *Universidade Federal de São Paulo - Campus São José dos Campos* [(UNIFESP)](https://www.unifesp.br/campus/sjc/), *Instituto Tecnológico de Aeronáutica* [(ITA)](http://www.ita.br/), and *Universidade Federal de São Carlos - Campus Sorocaba* [(UFSCar)](https://www.sorocaba.ufscar.br/).
+Image classification will be the main computer vision task considered, but other tasks will be evaluated, also considering the greater diversity of distinct data.
+
+The IDeepS project is supported by the *Laboratório Nacional de Computação Científica* ([LNCC](https://www.gov.br/lncc/pt-br)/MCTI, Brazil) via resources of the [SDumont](http://sdumont.lncc.br) supercomputer. Researchers, professors and post-graduate students from the following organisations are involved in the project: *Instituto Nacional de Pesquisas Espaciais* [(INPE)](https://www.gov.br/inpe/pt-br), *Instituto de Estudos Avançados* [(IEAv)](https://ieav.dcta.mil.br/), *Universidade Federal de São Paulo - Campus São José dos Campos* [(UNIFESP)](https://www.unifesp.br/campus/sjc/), *Universidade Federal de São Carlos - Campus Sorocaba* [(UFSCar)](https://www.sorocaba.ufscar.br/), and *Universidade Estadual Paulista Júlio de Mesquita Filho (UNESP) - Campus Bauru*.
 
 
 ## Publications
 
-:white_check_mark: V. A. Santiago Júnior. Evaluating Deep Learning Techniques for Blind Image Super-Resolution within a High-Scale Multi-Domain Perspective. AI, v. 4, p. 598-619, 2023. Access [here](https://www.mdpi.com/2673-2688/4/3/32).
+<!-- :white_check_mark: V. A. Santiago Júnior. Evaluating Deep Learning Techniques for Blind Image Super-Resolution within a High-Scale Multi-Domain Perspective. AI, v. 4, p. 598-619, 2023. Access [here](https://www.mdpi.com/2673-2688/4/3/32).
 
 :white_check_mark: L. F. A. Silva, N. Sebe, and J. Almeida. Tightening Classification Boundaries in Open Set Domain Adaptation through Unknown Exploitation. In: Proceedings of The 36th Conference on Graphics, Patterns and Images (SIBGRAPI 2023), 2023, Rio Grande, RS, Brazil, Accepted for publication. Access [here](http://urlib.net/ibi/8JMKD3MGPEW34M/49LHPT8).
 
@@ -27,7 +28,7 @@ The IDeepS project is supported by the *Laboratório Nacional de Computação Ci
 
 :white_check_mark: R. S. Maximiano, V. A. Santiago Júnior, and E. H. Shiguemori. Artificial Neural Networks to Analyze Energy Consumption and Temperature of UAV On-Board Computers Executing Algorithms for Object Detection. In: Proceedings of the 11th Brazilian Conference on Intelligent Systems (BRACIS 2022), 2022, Campinas, SP, Brazil, v. 13654, p. 523-538. Access [here](https://link.springer.com/chapter/10.1007/978-3-031-21689-3_37).
 
-:white_check_mark: R. S. Maximiano, V. A. Santiago Júnior, and E. H. Shiguemori. On the benefits of automated tuning of hyperparameters: an experiment related to temperature prediction on UAV computers. In: Proceedings of the XIX Encontro Nacional de Inteligência Artificial e Computacional (ENIAC 2022), 2022, Campinas, SP, Brazil, v. 1. p. 509-520. Access [here](https://sol.sbc.org.br/index.php/eniac/article/view/22808).
+:white_check_mark: R. S. Maximiano, V. A. Santiago Júnior, and E. H. Shiguemori. On the benefits of automated tuning of hyperparameters: an experiment related to temperature prediction on UAV computers. In: Proceedings of the XIX Encontro Nacional de Inteligência Artificial e Computacional (ENIAC 2022), 2022, Campinas, SP, Brazil, v. 1. p. 509-520. Access [here](https://sol.sbc.org.br/index.php/eniac/article/view/22808).-->
 
 
 
