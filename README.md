@@ -10,9 +10,9 @@ The IDeepS project is supported by the *Laboratório Nacional de Computação Ci
 
 ## Publications
 
-<!-- :white_check_mark: V. A. Santiago Júnior. Evaluating Deep Learning Techniques for Blind Image Super-Resolution within a High-Scale Multi-Domain Perspective. AI, v. 4, p. 598-619, 2023. Access [here](https://www.mdpi.com/2673-2688/4/3/32).
+:white_check_mark: M. S. Miranda, V. A. Santiago Júnior, T. S. Körting, E. C. S. Monteiro, and J. Q. Silva. AI4LUC: Deep learning and automated mask labeling to support land use and land cover mapping in the Cerrado biome. Remote Sensing Letters, In press.
 
-:white_check_mark: L. F. A. Silva, N. Sebe, and J. Almeida. Tightening Classification Boundaries in Open Set Domain Adaptation through Unknown Exploitation. In: Proceedings of The 36th Conference on Graphics, Patterns and Images (SIBGRAPI 2023), 2023, Rio Grande, RS, Brazil, Accepted for publication. Access [here](http://urlib.net/ibi/8JMKD3MGPEW34M/49LHPT8).
+<!-- :white_check_mark: L. F. A. Silva, N. Sebe, and J. Almeida. Tightening Classification Boundaries in Open Set Domain Adaptation through Unknown Exploitation. In: Proceedings of The 36th Conference on Graphics, Patterns and Images (SIBGRAPI 2023), 2023, Rio Grande, RS, Brazil, Accepted for publication. Access [here](http://urlib.net/ibi/8JMKD3MGPEW34M/49LHPT8).
 
 :white_check_mark: L. F. A. Silva and J. Almeida. Open Set Domain Adaptation Methods in Deep Networks for Image Recognition. In: Proceedings of The 36th Conference on Graphics, Patterns and Images (SIBGRAPI 2023), 2023, Rio Grande, RS, Brazil, Accepted for publication. Access [here](http://urlib.net/ibi/8JMKD3MGPEW34M/49S978P).
 
@@ -34,16 +34,21 @@ The IDeepS project is supported by the *Laboratório Nacional de Computação Ci
 
 | Member                                                                   | Organisation |
 | ------------------------------------------------------------------       | ------------ | 
+| [Adriano Pereira Almeida](http://lattes.cnpq.br/7223840348193655)        | INPE |
+| [Alan James Peixoto Calheiros](http://lattes.cnpq.br/5419406895036725)   | INPE |
 | [Álvaro Luiz Fazenda](http://lattes.cnpq.br/7606159905559544)            | UNIFESP |
+| [André Estevam Costa Oliveira](http://lattes.cnpq.br/5455928502332812)   | INPE |
 | [Bruno Nardi de Carvalho Dantas](http://lattes.cnpq.br/4111398377089142) | ITA |
+| [Caio Eduardo Dias](http://lattes.cnpq.br/0118361839591021)              | INPE | 
 | [Daniel Augusto de Sousa Mendes](http://lattes.cnpq.br/3461067348884455) | INPE |
 | [Eduardo Bouhid Neto](http://lattes.cnpq.br/0204534910626516)            | UNIFESP |
 | [Elcio Hideiti Shiguemori](http://lattes.cnpq.br/7243145638158319)      | IEAv |
+| [Hércules Carlos Dos Santos Pereira](http://lattes.cnpq.br/0820109440738651) | INPE |
 | [Hugo Resende](http://lattes.cnpq.br/9907206893187416)                   | UNIFESP |
 | [João Paulo Papa](http://lattes.cnpq.br/9039182932747194)               | UNESP |
 | [Jurandy Gomes de Almeida Junior](http://lattes.cnpq.br/4495269939725770) | UFSCar |
-| [Marcelo Augusto Sudo](http://lattes.cnpq.br/1750775781178709)            | UNIFESP |
 | [Mateus de Souza Miranda](http://lattes.cnpq.br/2824146679184873)        | INPE |
+| [Matheus Corrêa Domingos](http://lattes.cnpq.br/7277732428942776)        | INPE |
 | [Nathan Augusto Zacarias Xavier](http://lattes.cnpq.br/2088578568009855) | ITA |
 | [Rafael Marinho de Andrade](http://lattes.cnpq.br/4682129139227457) | INPE |
 | [Reinaldo Roberto Rosa](http://lattes.cnpq.br/2840176439889517)      | INPE |
