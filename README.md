@@ -43,6 +43,7 @@ The IDeepS project is supported by the *Laboratório Nacional de Computação Ci
 | [Daniel Augusto de Sousa Mendes](http://lattes.cnpq.br/3461067348884455) | INPE |
 | [Eduardo Bouhid Neto](http://lattes.cnpq.br/0204534910626516)            | UNIFESP |
 | [Elcio Hideiti Shiguemori](http://lattes.cnpq.br/7243145638158319)      | IEAv |
+| [Gabriel Lino Garcia](http://lattes.cnpq.br/1435933377049978)             | UNESP |
 | [Hércules Carlos Dos Santos Pereira](http://lattes.cnpq.br/0820109440738651) | INPE |
 | [Hugo Resende](http://lattes.cnpq.br/9907206893187416)                   | UNIFESP |
 | [João Paulo Papa](http://lattes.cnpq.br/9039182932747194)               | UNESP |
