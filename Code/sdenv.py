@@ -29,7 +29,7 @@ if 'SLURM_PROCID' in os.environ:
 gpu_ids = []
 if job_partition in ['nvidia', 'nvidia_small', 'nvidia_dev', 'nvidia_scal', 'nvidia_long', 'het_scal']:
         gpu_ids = [0, 1]
-elif job_partition in ['sequana_gpu_shared', 'sdumont18']:
+elif job_partition in ['sequana_gpu_shared', 'sdumont18', 'sequana_gpu', 'sequana_gpu_dev', 'sequana_gpu_long']:
         gpu_ids = [0, 1, 2, 3]
 elif job_partition in ['gdl']:
         gpu_ids = [0, 1, 2, 3, 4, 5, 6, 7]
