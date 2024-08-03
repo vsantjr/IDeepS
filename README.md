@@ -10,7 +10,7 @@ The IDeepS project is supported by the *Laboratório Nacional de Computação Ci
 
 ## Publications
 
-:white_check_mark: M. S. Miranda, V. A. Santiago Júnior, T. S. Körting, E. C. S. Monteiro, and J. Q. Silva. AI4LUC: Deep learning and automated mask labeling to support land use and land cover mapping in the Cerrado biome. Remote Sensing Letters, In press.
+:white_check_mark: M. S. Miranda, V. A. Santiago Júnior, T. S. Körting, E. C. S. Monteiro, and J. Q. Silva. AI4LUC: Deep learning and automated mask labelling to support land use and land cover mapping in the Cerrado biome. Remote Sensing Letters, v. 15, n. 8, p. 850 - 860, 2024. Access [here](https://www.tandfonline.com/doi/full/10.1080/2150704X.2024.2382845).
 
 <!-- :white_check_mark: L. F. A. Silva, N. Sebe, and J. Almeida. Tightening Classification Boundaries in Open Set Domain Adaptation through Unknown Exploitation. In: Proceedings of The 36th Conference on Graphics, Patterns and Images (SIBGRAPI 2023), 2023, Rio Grande, RS, Brazil, Accepted for publication. Access [here](http://urlib.net/ibi/8JMKD3MGPEW34M/49LHPT8).
 
