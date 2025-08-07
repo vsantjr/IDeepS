@@ -1,6 +1,6 @@
 # Project IDeepS
 
-<img src="https://github.com/vsantjr/CAP/blob/master/Images/logo2ideeps.png" width=58%>
+<img src="https://github.com/vsantjr/CAP/blob/master24/Images/logo2ideeps.png" width=58%>
 
 ## Single Node/Multiple GPUs
 

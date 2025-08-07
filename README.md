@@ -1,7 +1,7 @@
 # Project IDeepS
 
 
-<img src="https://github.com/vsantjr/CAP/blob/master/Images/logo2ideeps.png" width=58%>
+<img src="https://github.com/vsantjr/CAP/blob/master24/Images/logo2ideeps.png" width=58%>
 
 The project ***Classificação de imagens e dados via redes neurais profundas para múltiplos domínios*** (Image and data classification via Deep neural networks for multiple domainS - ***IDeepS***) is a continuation of a previous project and whose current objective is to propose recommendations/suggestions for the best deep neural network (DNN) models to be used for the remote sensing (which includes aerial images obtained by unmanned aerial vehicles (UAVs), airplanes, as well as images obtained by satellites), astrophysics, and health domains. Image classification will be the main computer vision task considered, but other tasks will be evaluated, also taking into account the greater diversity of distinct data.
 
@@ -32,7 +32,7 @@ The IDeepS project is supported by the *Laboratório Nacional de Computação Ci
 
 :white_check_mark: OLIVEIRA, A. E. C. ; DOMINGOS, M. C. ; SANTIAGO JÚNIOR, V. A. ; KÖRTING, T. S. ; DIAS, C. E. ; PEREIRA, H. C. S. ; MENDES, D. C. Mining sites recognition via scene classification using 3D convolutional neural networks. In: XXI Simpósio Brasileiro de Sensoriamento Remoto (SBSR), 2025, Salvador, BA. Anais do XXI Simpósio Brasileiro de Sensoriamento Remoto (SBSR), 2025. v. 1. p. 5-8.
 
-:white_check_mark: PEREIRA, H. C. S. ; DIAS, C. E. ; SANTIAGO JÚNIOR, V. A. ; SHIGUEMORI, ELCIO H. ; DOMINGOS, M. C. ; OLIVEIRA, A. E. C. ; MENDES, D. C. Automated detection of vessels in remote sensing images using deep learning models. In: XXI Simpósio Brasileiro de Sensoriamento Remoto (SBSR), 2025, Salvador, BA. Anais do XXI Simpósio Brasileiro de Sensoriamento Remoto (SBSR), 2025. Poster.
+:white_check_mark: PEREIRA, H. C. S. ; DIAS, C. E. ; SANTIAGO JÚNIOR, V. A. ; SHIGUEMORI, E. H. ; DOMINGOS, M. C. ; OLIVEIRA, A. E. C. ; MENDES, D. C. Automated detection of vessels in remote sensing images using deep learning models. In: XXI Simpósio Brasileiro de Sensoriamento Remoto (SBSR), 2025, Salvador, BA. Anais do XXI Simpósio Brasileiro de Sensoriamento Remoto (SBSR), 2025. Poster.
 
 <!--:white_check_mark: R. S. Maximiano, V. A. Santiago Júnior, and E. H. Shiguemori. On the benefits of automated tuning of hyperparameters: an experiment related to temperature prediction on UAV computers. In: Proceedings of the XIX Encontro Nacional de Inteligência Artificial e Computacional (ENIAC 2022), 2022, Campinas, SP, Brazil, v. 1. p. 509-520. Access [here](https://sol.sbc.org.br/index.php/eniac/article/view/22808).-->
 

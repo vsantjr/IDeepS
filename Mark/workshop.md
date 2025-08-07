@@ -1,7 +1,7 @@
 # Project IDeepS
 
 
-<img src="https://github.com/vsantjr/CAP/blob/master/Images/logo1ideeps.png" width=58%>
+<img src="https://github.com/vsantjr/CAP/blob/master24/Images/logo1ideeps.png" width=58%>
 
 ## IDeepS Project Workshop
 
