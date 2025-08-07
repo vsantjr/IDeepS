@@ -12,7 +12,7 @@ The IDeepS project is supported by the *Laboratório Nacional de Computação Ci
 
 :white_check_mark: MIRANDA, M. S. ; HANSCH, R. ; SANTIAGO JÚNIOR, V. A. ; KÖRTING, T. S. ; MONTEIRO, E. C. S. CerraData-4 MM: A Multimodal Benchmark Dataset on Cerrado for Land Use and Land Cover Classification. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, v. 18, p. 18031-18041, 2025. Access [here](https://ieeexplore.ieee.org/document/11068119).
 
-:white_check_mark: SANTIAGO JÚNIOR, V. A. ; MIRANDA, M. S. ; RODRIGUES, M. L. ; SILVA, B. L. C. E. ; KÖRTING, T. S. A multi-view evaluation on semantic segmentation supported by deep neural networks for the Cerrado savanna. Revista Geoaraguaia, v. 15, p. 1-24, 2025. Access[here](https://periodicoscientificos.ufmt.br/ojs/index.php/geo/article/view/17295).
+:white_check_mark: SANTIAGO JÚNIOR, V. A. ; MIRANDA, M. S. ; RODRIGUES, M. L. ; SILVA, B. L. C. E. ; KÖRTING, T. S. A multi-view evaluation on semantic segmentation supported by deep neural networks for the Cerrado savanna. Revista Geoaraguaia, v. 15, p. 1-24, 2025. Access [here](https://periodicoscientificos.ufmt.br/ojs/index.php/geo/article/view/17295).
 
 :white_check_mark: MIRANDA, M. S. ; SANTIAGO JÚNIOR, V. A. ; KÖRTING, T. S. ; MONTEIRO, E. C. S. ; SILVA, J. Q. AI4LUC: deep learning and automated mask labelling to support land use and land cover mapping in the Cerrado biome. Remote Sensing Letters, v. 15, p. 850-860, 2024. Access [here](https://www.tandfonline.com/doi/full/10.1080/2150704X.2024.2382845).
 
