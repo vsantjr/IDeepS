@@ -10,23 +10,29 @@ The IDeepS project is supported by the *Laboratório Nacional de Computação Ci
 
 ## Publications
 
-:white_check_mark: M. S. Miranda, V. A. Santiago Júnior, T. S. Körting, E. C. S. Monteiro, and J. Q. Silva. AI4LUC: Deep learning and automated mask labelling to support land use and land cover mapping in the Cerrado biome. Remote Sensing Letters, v. 15, n. 8, p. 850 - 860, 2024. Access [here](https://www.tandfonline.com/doi/full/10.1080/2150704X.2024.2382845).
+:white_check_mark: MIRANDA, M. S. ; HANSCH, R. ; SANTIAGO JÚNIOR, V. A. ; KÖRTING, T. S. ; MONTEIRO, E. C. S. CerraData-4 MM: A Multimodal Benchmark Dataset on Cerrado for Land Use and Land Cover Classification. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, v. 18, p. 18031-18041, 2025. Access [here](https://ieeexplore.ieee.org/document/11068119).
 
-<!-- :white_check_mark: L. F. A. Silva, N. Sebe, and J. Almeida. Tightening Classification Boundaries in Open Set Domain Adaptation through Unknown Exploitation. In: Proceedings of The 36th Conference on Graphics, Patterns and Images (SIBGRAPI 2023), 2023, Rio Grande, RS, Brazil, Accepted for publication. Access [here](http://urlib.net/ibi/8JMKD3MGPEW34M/49LHPT8).
+:white_check_mark: SANTIAGO JÚNIOR, V. A. ; MIRANDA, M. S. ; RODRIGUES, M. L. ; SILVA, B. L. C. E. ; KÖRTING, T. S. A multi-view evaluation on semantic segmentation supported by deep neural networks for the Cerrado savanna. Revista Geoaraguaia, v. 15, p. 1-24, 2025.
 
-:white_check_mark: L. F. A. Silva and J. Almeida. Open Set Domain Adaptation Methods in Deep Networks for Image Recognition. In: Proceedings of The 36th Conference on Graphics, Patterns and Images (SIBGRAPI 2023), 2023, Rio Grande, RS, Brazil, Accepted for publication. Access [here](http://urlib.net/ibi/8JMKD3MGPEW34M/49S978P).
+:white_check_mark: MIRANDA, M. S. ; SANTIAGO JÚNIOR, V. A. ; KÖRTING, T. S. ; MONTEIRO, E. C. S. ; SILVA, J. Q. AI4LUC: deep learning and automated mask labelling to support land use and land cover mapping in the Cerrado biome. Remote Sensing Letters, v. 15, p. 850-860, 2024. Access [here](https://www.tandfonline.com/doi/full/10.1080/2150704X.2024.2382845).
 
-:white_check_mark: S. F. dos Santos, R. Berriel, T. Oliveira-Santos, N. Sebe, J. Almeida. Budget-Aware Pruning for Multi-domain Learning. In: Proceedings of the 22nd International Conference on Image Analysis and Processing (ICIAP 2023), 2023, p. 1-12. Access [here](https://www.springerprofessional.de/budget-aware-pruning-for-multi-domain-learning/26004324). 
+:white_check_mark: SANTIAGO JÚNIOR, V. A. Empirical Evidence Regarding Few-Shot Learning for Scene Classification in Remote Sensing Images. Applied Sciences-Basel, v. 14, p. 10776, 2024. Access [here](https://www.mdpi.com/2076-3417/14/23/10776)
 
-:white_check_mark: V. A. Santiago Júnior. Deep learning techniques for blind image super-resolution: A high-scale multi-domain perspective evaluation. arXiv:2306.09426 [eess.IV], 2023. Access [here](https://arxiv.org/abs/2306.09426). 
+:white_check_mark: DIAS, C. E. ; SANTIAGO JÚNIOR, V. A. ; SHIGUEMORI, E. H. Automatic Detection of Spots on Coffee Leaves using Deep Learning. In: XVII Congresso Brasileiro de Inteligência Computacional (CBIC 2025), 2025, Belo Horizonte, MG. Anais do XVII Congresso Brasileiro de Inteligência Computacional (CBIC 2025), 2025. p. Accepted.
 
-:white_check_mark: V. A. Santiago Júnior. A Method and Experiment to evaluate Deep Neural Networks as Test Oracles for Scientific Software. In: Proceedings of the 2022 IEEE/ACM International Conference on Automation of Software Test (AST 2022, co-located with ICSE 2022), 2022, Pittsburgh, PA, USA, p. 40-51. Access [here](https://ieeexplore.ieee.org/document/9796455).
+:white_check_mark: PEREIRA, H. C. S. ; SANTIAGO JÚNIOR, V. A. ; SHIGUEMORI, E. H. ; MENDES, D. C. ; DIAS, C. E. ; DOMINGOS, M. C. ; SANTOS, L. M. C. . Identificação de mudanças em áreas de mineração a céu aberto por meio de imagens de satélite e aprendizado profundo. In: XVII Congresso Brasileiro de Inteligência Computacional (CBIC 2025), 2025, Belo Horizonte, MG. Anais do XVII Congresso Brasileiro de Inteligência Computacional (CBIC 2025), 2025. p. Aceito.
 
-:white_check_mark: M. S. Miranda, L. F. A. Silva, S. F. dos Santos, V. A. Santiago Júnior, T. S. Körting, and J. Almeida. A High-Spatial Resolution Dataset and Few-shot Deep Learning Benchmark for Image Classification. In: Proceedings of The 35th Conference on Graphics, Patterns and Images (SIBGRAPI 2022), 2022, Natal, RN, Brazil, p. 19-24. Access [here](https://ieeexplore.ieee.org/document/9991746). 
+:white_check_mark: SANTOS, L. M. C. ; DOMINGOS, M. C. ; PEREIRA, H. C. S. ; SANTOS, R. D. C. ; VIEIRA, L. E. A. ; SANTIAGO JÚNIOR, V. A. ; SHIGUEMORI, E. H. AURORAS: Automated Remote Observation for Recognition and Analysis of Safe Landing Sites via Deep Learning. In: XVII Congresso Brasileiro de Inteligência Computacional (CBIC 2025), 2025, Belo Horizonte, MG. Anais do XVII Congresso Brasileiro de Inteligência Computacional (CBIC 2025), 2025. p. Aceito.
 
-:white_check_mark: R. S. Maximiano, V. A. Santiago Júnior, and E. H. Shiguemori. Artificial Neural Networks to Analyze Energy Consumption and Temperature of UAV On-Board Computers Executing Algorithms for Object Detection. In: Proceedings of the 11th Brazilian Conference on Intelligent Systems (BRACIS 2022), 2022, Campinas, SP, Brazil, v. 13654, p. 523-538. Access [here](https://link.springer.com/chapter/10.1007/978-3-031-21689-3_37).
+:white_check_mark: DOMINGOS, M. C. ; SANTIAGO JÚNIOR, V. A. ; ANOCHI, J. A. ; SHIGUEMORI, ELCIO H. Exploring Deep Learning Techniques for Climate Prediction of Precipitation for the Autumn Season in South America. In: XLV Congresso da Sociedade Brasileira de Computação (CSBC 2025), XVI Workshop de Computação Aplicada à Gestão do Meio Ambiente e Recursos Naturais (WCAMA 2025), 2025, Maceío. Anais do XLV Congresso da Sociedade Brasileira de Computação (CSBC 2025), XVI Workshop de Computação Aplicada à Gestão do Meio Ambiente e Recursos Naturais (WCAMA 2025), 2025. p. 1-10. 
 
-:white_check_mark: R. S. Maximiano, V. A. Santiago Júnior, and E. H. Shiguemori. On the benefits of automated tuning of hyperparameters: an experiment related to temperature prediction on UAV computers. In: Proceedings of the XIX Encontro Nacional de Inteligência Artificial e Computacional (ENIAC 2022), 2022, Campinas, SP, Brazil, v. 1. p. 509-520. Access [here](https://sol.sbc.org.br/index.php/eniac/article/view/22808).-->
+:white_check_mark: OLIVEIRA, A. E. C. ; SANTIAGO JÚNIOR, V. A. 3D Convolutional Neural Networks for Land Use and Land Cover Classification: The Brazilian Cerrado as a Case Study. In: XXV Simpósio Brasileiro de Geoinformática (GEOINFO 2025), 2025, São José dos Campos. Anais do XXV Simpósio Brasileiro de Geoinformática (GEOINFO 2025), 2025. p. 1-12.
+
+:white_check_mark: OLIVEIRA, A. E. C. ; DOMINGOS, M. C. ; SANTIAGO JÚNIOR, V. A. ; KÖRTING, T. S. ; DIAS, C. E. ; PEREIRA, H. C. S. ; MENDES, D. C. Mining sites recognition via scene classification using 3D convolutional neural networks. In: XXI Simpósio Brasileiro de Sensoriamento Remoto (SBSR), 2025, Salvador, BA. Anais do XXI Simpósio Brasileiro de Sensoriamento Remoto (SBSR), 2025. v. 1. p. 5-8.
+
+:white_check_mark: PEREIRA, H. C. S. ; DIAS, C. E. ; SANTIAGO JÚNIOR, V. A. ; SHIGUEMORI, ELCIO H. ; DOMINGOS, M. C. ; OLIVEIRA, A. E. C. ; MENDES, D. C. Automated detection of vessels in remote sensing images using deep learning models. In: XXI Simpósio Brasileiro de Sensoriamento Remoto (SBSR), 2025, Salvador, BA. Anais do XXI Simpósio Brasileiro de Sensoriamento Remoto (SBSR), 2025. Poster.
+
+<!--:white_check_mark: R. S. Maximiano, V. A. Santiago Júnior, and E. H. Shiguemori. On the benefits of automated tuning of hyperparameters: an experiment related to temperature prediction on UAV computers. In: Proceedings of the XIX Encontro Nacional de Inteligência Artificial e Computacional (ENIAC 2022), 2022, Campinas, SP, Brazil, v. 1. p. 509-520. Access [here](https://sol.sbc.org.br/index.php/eniac/article/view/22808).-->
 
 
 
@@ -76,4 +82,4 @@ This project is licensed under the GNU GENERAL PUBLIC LICENSE, Version 3 (GPLv3)
 
 Please cite this repository if you use it as:
 
-V. A. Santiago J&uacute;nior. Project IDeepS, 2024. Acessed on: *date of access*. Available at: https://github.com/vsantjr/IDeepS. 
+V. A. Santiago J&uacute;nior. Project IDeepS, 2025. Acessed on: *date of access*. Available at: https://github.com/vsantjr/IDeepS. 
